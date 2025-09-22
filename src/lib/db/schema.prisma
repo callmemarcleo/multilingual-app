@@ -263,6 +263,24 @@ model words {
     word            String
 }
 
+model puzzles {
+  id          String              @id @default(auto()) @map("_id") @db.ObjectId
+  language_id String              @db.ObjectId
+  words       String[]
+  puzzle      String
+  solution    String
+  category    String?
+  translations PuzzleTranslation[]
+}
+
+type PuzzleTranslation {
+  language_id String   @db.ObjectId
+  words       String[]
+  puzzle      String
+  solution    String
+}
+
+
 type TranslationEntry {
     language_id String  @db.ObjectId
     translation String?
