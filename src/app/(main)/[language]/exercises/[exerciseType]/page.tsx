@@ -16,6 +16,9 @@ import { getProverbFlashcards } from "@/lib/proverbs";
 import ProverbFlashcards from "@/components/exercises/Proverb";
 import { ConjCard, getRandomConjExercises } from "@/lib/conjugations";
 import ConjugationGrid from "@/components/exercises/Conjugation";
+import { getPuzzleFlashcardsPrisma } from "@/lib/puzzles";
+import PuzzleFlashcards from "@/components/exercises/Puzzle";
+
 
 const LOCALE_MAP: Record<string, string> = {
   en: "English",
@@ -130,6 +133,17 @@ export default async function ExercisePage({
 
     return <DarkFlashcards cards={flashcards} />;
   }
+
+  if (formattedExerciseType === "puzzle") {
+  const cards = await getPuzzleFlashcardsPrisma(
+    languageData.id,
+    userLocaleData.id,
+    session.user?.id || ""
+  );
+
+  return <PuzzleFlashcards cards={cards} />;
+  }
+ 
 
   if (formattedExerciseType === "translations") {
     const totalPairsToFetch = 50;
