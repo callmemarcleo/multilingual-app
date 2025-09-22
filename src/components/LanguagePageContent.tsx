@@ -69,6 +69,11 @@ const exercisesByLanguage: Record<string, Exercise[]> = {
       description: "Try to conjugate spanish verbs.",
       href: "/spanish/exercises/conjugation",
     },
+        {
+      name: "Puzzle",
+      description: "Learn new words to expand your vocabulary.",
+      href: "/spanish/exercises/puzzle",
+    },
   ],
   italian: [
     {
