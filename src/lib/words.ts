@@ -76,6 +76,7 @@ export type RawFlashcard = {
   languageId: string;
   word: string;
   frontText: string;
+  examples?: string[];
   translation: string;
   status: CardStatus;
 };
@@ -102,6 +103,7 @@ export async function getFlashcardsPrisma(
       language_id: true,
       word: true,
       front_text: true,
+      examples: true,
       translations: true,
     },
   });
@@ -118,6 +120,7 @@ export async function getFlashcardsPrisma(
       languageId: w.language_id,
       word: w.word,
       frontText: w.front_text!,
+      examples: Array.isArray(w.examples) ? w.examples : [],
       translation: t,
       status: progress[w.id] ?? 0,
     });
