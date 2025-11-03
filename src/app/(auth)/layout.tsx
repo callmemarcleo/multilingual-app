@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 import Image from "next/image";
-import placeholder from "@/public/img/placeholder.png";
 import "@/app/globals.css";
 
 export default function AuthLayout({ children }: { children: ReactNode }) {
@@ -12,7 +11,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
         </div>
         <div className="w-full relative">
           <Image
-            src={placeholder}
+            src="/img/placeholder.png"
             alt="Placeholder Image"
             className="w-full h-screen rounded-tl-[60px] rounded-bl-[60px]"
             fill
