@@ -17,22 +17,22 @@ const LANGUAGES: Language[] = [
   {
     name: "German",
     href: "/jokes/german",
-    icon: <Image src={germany} alt="Germany Flag" width={64} height={64} />,
+    icon: <Image src="/img/germany.png" alt="Germany Flag" width={64} height={64} />,
   },
   {
     name: "English",
     href: "/jokes/english",
-    icon: <Image src={unitedKingdom} alt="UK Flag" width={64} height={64} />,
+    icon: <Image src="/img/united-kingdom.png" alt="UK Flag" width={64} height={64} />,
   },
   {
     name: "Spanish",
     href: "/jokes/spanish",
-    icon: <Image src={spain} alt="Spain Flag" width={64} height={64} />,
+    icon: <Image src="/img/spain.png" alt="Spain Flag" width={64} height={64} />,
   },
   {
     name: "French",
     href: "/jokes/french",
-    icon: <Image src={france} alt="French Flag" width={64} height={64} />,
+    icon: <Image src="/img/france.png" alt="French Flag" width={64} height={64} />,
   },
 ];
 

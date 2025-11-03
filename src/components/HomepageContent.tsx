@@ -1,10 +1,5 @@
 "use client";
 
-import germany from "../public/img/germany.png";
-import unitedKingdom from "../public/img/united-kingdom.png";
-import italy from "../public/img/italy.png";
-import spain from "../public/img/spain.png";
-import france from "../public/img/france.png";
 import Image from "next/image";
 import LanguageCard from "./LanguageCard";
 import { useI18n } from "@/contexts/I18nContext";
@@ -19,27 +14,27 @@ type Language = {
 const languages: Language[] = [
   {
     name: "English",
-    icon: <Image src={unitedKingdom} alt="UK Flag" width={64} height={64} />,
+    icon: <Image src="/img/united-kingdom.png" alt="UK Flag" width={64} height={64} />,
     href: "/english",
   },
   {
     name: "German",
-    icon: <Image src={germany} alt="Germany Flag" width={64} height={64} />,
+    icon: <Image src="/img/germany.png" alt="Germany Flag" width={64} height={64} />,
     href: "/german",
   },
   {
     name: "Spanish",
-    icon: <Image src={spain} alt="Spain Flag" width={64} height={64} />,
+    icon: <Image src="/img/spain.png" alt="Spain Flag" width={64} height={64} />,
     href: "/spanish",
   },
   {
     name: "Italian",
-    icon: <Image src={italy} alt="Italy Flag" width={64} height={64} />,
+    icon: <Image src="/img/italy.png" alt="Italy Flag" width={64} height={64} />,
     href: "/italian",
   },
   {
     name: "French",
-    icon: <Image src={france} alt="French Flag" width={64} height={64} />,
+    icon: <Image src="/img/france.png" alt="French Flag" width={64} height={64} />,
     href: "/french",
   },
 ];

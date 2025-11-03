@@ -4,11 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { IoHomeOutline } from "react-icons/io5";
 import { CiLogout, CiUser } from "react-icons/ci";
-import germany from "../public/img/germany.png";
-import unitedKingdom from "../public/img/united-kingdom.png";
-import italy from "../public/img/italy.png";
-import spain from "../public/img/spain.png";
-import france from "../public/img/france.png";
 import Image from "next/image";
 import { useI18n } from "@/contexts/I18nContext";
 import { useState } from "react";
@@ -17,6 +12,7 @@ import { getTranslation } from "@/lib/translations";
 import { setCookie } from "cookies-next";
 import { signOut } from "next-auth/react";
 import { TbJoker } from "react-icons/tb";
+import { TbPhoto } from "react-icons/tb";
 
 type NavItem = {
   label: string;
@@ -28,27 +24,27 @@ const navItems: NavItem[] = [
   { label: "Home", icon: <IoHomeOutline size={24} />, href: "/" },
   {
     label: "English",
-    icon: <Image src={unitedKingdom} alt="UK Flag" width={24} height={24} />,
+    icon: <Image src="/img/united-kingdom.png" alt="UK Flag" width={24} height={24} />,
     href: "/english",
   },
   {
     label: "German",
-    icon: <Image src={germany} alt="Germany Flag" width={24} height={24} />,
+    icon: <Image src="/img/germany.png" alt="Germany Flag" width={24} height={24} />,
     href: "/german",
   },
   {
     label: "Spanish",
-    icon: <Image src={spain} alt="Spain Flag" width={24} height={24} />,
+    icon: <Image src="/img/spain.png" alt="Spain Flag" width={24} height={24} />,
     href: "/spanish",
   },
   {
     label: "Italian",
-    icon: <Image src={italy} alt="Italy Flag" width={24} height={24} />,
+    icon: <Image src="/img/italy.png" alt="Italy Flag" width={24} height={24} />,
     href: "/italian",
   },
   {
     label: "French",
-    icon: <Image src={france} alt="French Flag" width={24} height={24} />,
+    icon: <Image src="/img/france.png" alt="French Flag" width={24} height={24} />,
     href: "/french",
   },
   {
@@ -56,15 +52,16 @@ const navItems: NavItem[] = [
     icon: <TbJoker size={24} />,
     href: "/jokes",
   },
+  { label: "Images", icon: <TbPhoto size={24} />, href: "/images", },
   { label: "Profile", icon: <CiUser size={24} />, href: "/profile" },
 ];
 
 const languageOptions = [
-  { name: "English", code: "en", flag: unitedKingdom },
-  { name: "German", code: "de", flag: germany },
-  { name: "Spanish", code: "es", flag: spain },
-  { name: "Italian", code: "it", flag: italy },
-  { name: "French", code: "fr", flag: france },
+  { name: "English", code: "en", flag: "/img/united-kingdom.png" },
+  { name: "German", code: "de", flag: "/img/germany.png" },
+  { name: "Spanish", code: "es", flag: "/img/spain.png" },
+  { name: "Italian", code: "it", flag: "/img/italy.png" },
+  { name: "French", code: "fr", flag: "/img/france.png" },
 ];
 
 export default function NavBar() {

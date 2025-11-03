@@ -1,6 +1,6 @@
 [
   {
-    "first_image": "/images/gemuese/spinat.jpg",
+    "first_image": "/gemuese/spinat.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Spinach" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Espinaca" },
@@ -11,7 +11,7 @@
     "category": "leafy_greens"
   },
   {
-    "first_image": "/images/gemuese/kopfsalat.jpg",
+    "first_image": "/gemuese/kopfsalat.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Lettuce" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Lechuga" },
@@ -22,7 +22,7 @@
     "category": "leafy_greens"
   },
   {
-    "first_image": "/images/gemuese/rucola.jpg",
+    "first_image": "/gemuese/rucola.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Arugula" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Rúcula" },
@@ -33,7 +33,7 @@
     "category": "leafy_greens"
   },
   {
-    "first_image": "/images/gemuese/feldsalat.jpg",
+    "first_image": "/gemuese/feldsalat.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Lamb’s lettuce" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Canónigos" },
@@ -44,7 +44,7 @@
     "category": "leafy_greens"
   },
   {
-    "first_image": "/images/gemuese/mangold.jpg",
+    "first_image": "/gemuese/mangold.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Swiss chard" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Acelga" },
@@ -55,7 +55,7 @@
     "category": "leafy_greens"
   },
   {
-    "first_image": "/images/gemuese/gruenkohl.jpg",
+    "first_image": "/gemuese/gruenkohl.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Kale" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Col rizada" },
@@ -66,7 +66,7 @@
     "category": "leafy_greens"
   },
   {
-    "first_image": "/images/gemuese/chinakohl.jpg",
+    "first_image": "/gemuese/chinakohl.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Chinese cabbage" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Repollo chino" },
@@ -77,7 +77,7 @@
     "category": "leafy_greens"
   },
   {
-    "first_image": "/images/gemuese/eisbergsalat.jpg",
+    "first_image": "/gemuese/eisbergsalat.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Iceberg lettuce" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Lechuga iceberg" },
@@ -88,7 +88,7 @@
     "category": "leafy_greens"
   },
   {
-    "first_image": "/images/gemuese/wirsing.jpg",
+    "first_image": "/gemuese/wirsing.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Savoy cabbage" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Repollo savoy" },
@@ -99,7 +99,7 @@
     "category": "leafy_greens"
   },
   {
-    "first_image": "/images/gemuese/brokkoli.jpg",
+    "first_image": "/gemuese/brokkoli.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Broccoli" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Brócoli" },
@@ -110,7 +110,7 @@
     "category": "florets"
   },
   {
-    "first_image": "/images/gemuese/blumenkohl.jpg",
+    "first_image": "/gemuese/blumenkohl.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Cauliflower" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Coliflor" },
@@ -121,7 +121,7 @@
     "category": "florets"
   },
   {
-    "first_image": "/images/gemuese/artischocke.jpg",
+    "first_image": "/gemuese/artischocke.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Artichoke" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Alcachofa" },
@@ -132,7 +132,7 @@
     "category": "florets"
   },
   {
-    "first_image": "/images/gemuese/romanesco.jpg",
+    "first_image": "/gemuese/romanesco.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Romanesco" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Romanesco" },
@@ -143,7 +143,7 @@
     "category": "florets"
   },
   {
-    "first_image": "/images/gemuese/tomate.jpg",
+    "first_image": "/gemuese/tomate.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Tomato" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Tomate" },
@@ -154,7 +154,7 @@
     "category": "fruit_veg"
   },
   {
-    "first_image": "/images/gemuese/paprika.jpg",
+    "first_image": "/gemuese/paprika.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Bell pepper" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Pimiento" },
@@ -165,7 +165,7 @@
     "category": "fruit_veg"
   },
   {
-    "first_image": "/images/gemuese/gurke.jpg",
+    "first_image": "/gemuese/gurke.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Cucumber" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Pepino" },
@@ -176,7 +176,7 @@
     "category": "fruit_veg"
   },
   {
-    "first_image": "/images/gemuese/zucchini.jpg",
+    "first_image": "/gemuese/zucchini.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Zucchini" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Calabacín" },
@@ -187,7 +187,7 @@
     "category": "fruit_veg"
   },
   {
-    "first_image": "/images/gemuese/kuerbis.jpg",
+    "first_image": "/gemuese/kuerbis.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Pumpkin" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Calabaza" },
@@ -198,7 +198,7 @@
     "category": "fruit_veg"
   },
   {
-    "first_image": "/images/gemuese/aubergine.jpg",
+    "first_image": "/gemuese/aubergine.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Eggplant" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Berenjena" },
@@ -209,7 +209,7 @@
     "category": "fruit_veg"
   },
   {
-    "first_image": "/images/gemuese/karotte.jpg",
+    "first_image": "/gemuese/karotte.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Carrot" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Zanahoria" },
@@ -220,7 +220,7 @@
     "category": "root_vegetables"
   },
   {
-    "first_image": "/images/gemuese/rote_bete.jpg",
+    "first_image": "/gemuese/rote_bete.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Beetroot" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Remolacha" },
@@ -231,7 +231,7 @@
     "category": "root_vegetables"
   },
   {
-    "first_image": "/images/gemuese/pastinake.jpg",
+    "first_image": "/gemuese/pastinake.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Parsnip" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Chirivía" },
@@ -242,7 +242,7 @@
     "category": "root_vegetables"
   },
   {
-    "first_image": "/images/gemuese/sellerie.jpg",
+    "first_image": "/gemuese/sellerie.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Celery" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Apio" },
@@ -253,7 +253,7 @@
     "category": "root_vegetables"
   },
   {
-    "first_image": "/images/gemuese/rettich.jpg",
+    "first_image": "/gemuese/rettich.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Radish" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Rábano" },
@@ -264,7 +264,7 @@
     "category": "root_vegetables"
   },
   {
-    "first_image": "/images/gemuese/radieschen.jpg",
+    "first_image": "/gemuese/radieschen.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Radishes" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Rábanos" },
@@ -275,7 +275,7 @@
     "category": "root_vegetables"
   },
   {
-    "first_image": "/images/gemuese/petersilienwurzel.jpg",
+    "first_image": "/gemuese/petersilienwurzel.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Parsley root" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Raíz de perejil" },
@@ -287,7 +287,7 @@
   },
 
   {
-    "first_image": "/images/gemuese/zwiebel.jpg",
+    "first_image": "/gemuese/zwiebel.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Onion" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Cebolla" },
@@ -298,7 +298,7 @@
     "category": "onion_vegetables"
   },
   {
-    "first_image": "/images/gemuese/knoblauch.jpg",
+    "first_image": "/gemuese/knoblauch.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Garlic" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Ajo" },
@@ -309,7 +309,7 @@
     "category": "onion_vegetables"
   },
   {
-    "first_image": "/images/gemuese/lauch.jpg",
+    "first_image": "/gemuese/lauch.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Leek" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Puerro" },
@@ -320,7 +320,7 @@
     "category": "onion_vegetables"
   },
   {
-    "first_image": "/images/gemuese/schalotte.jpg",
+    "first_image": "/gemuese/schalotte.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Shallot" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Chalota" },
@@ -331,7 +331,7 @@
     "category": "onion_vegetables"
   },
   {
-    "first_image": "/images/gemuese/schnittlauch.jpg",
+    "first_image": "/gemuese/schnittlauch.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Chives" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Cebollino" },
@@ -343,7 +343,7 @@
   },
 
   {
-    "first_image": "/images/gemuese/spargel.jpg",
+    "first_image": "/gemuese/spargel.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Asparagus" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Espárrago" },
@@ -354,7 +354,7 @@
     "category": "stem_vegetables"
   },
   {
-    "first_image": "/images/gemuese/rhabarber.jpg",
+    "first_image": "/gemuese/rhabarber.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Rhubarb" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Ruibarbo" },
@@ -365,7 +365,7 @@
     "category": "stem_vegetables"
   },
   {
-    "first_image": "/images/gemuese/kohlrabi.jpg",
+    "first_image": "/gemuese/kohlrabi.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Kohlrabi" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Colinabo" },
@@ -377,7 +377,7 @@
   },
 
   {
-    "first_image": "/images/gemuese/erbsen.jpg",
+    "first_image": "/gemuese/erbsen.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Peas" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Guisantes" },
@@ -388,7 +388,7 @@
     "category": "legumes"
   },
   {
-    "first_image": "/images/gemuese/bohnen.jpg",
+    "first_image": "/gemuese/bohnen.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Beans" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Frijoles" },
@@ -399,7 +399,7 @@
     "category": "legumes"
   },
   {
-    "first_image": "/images/gemuese/zuckerschoten.jpg",
+    "first_image": "/gemuese/zuckerschoten.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Snow peas" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Guisantes dulces" },
@@ -410,7 +410,7 @@
     "category": "legumes"
   },
   {
-    "first_image": "/images/gemuese/edamame.jpg",
+    "first_image": "/gemuese/edamame.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Edamame" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Edamame" },
@@ -422,7 +422,7 @@
   },
 
   {
-    "first_image": "/images/gemuese/mais.jpg",
+    "first_image": "/gemuese/mais.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Corn" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Maíz" },
@@ -433,7 +433,7 @@
     "category": "grain_like"
   },
   {
-    "first_image": "/images/gemuese/okra.jpg",
+    "first_image": "/gemuese/okra.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Okra" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Quimbombó" },
@@ -444,7 +444,7 @@
     "category": "vegetable_misc"
   },
   {
-    "first_image": "/images/gemuese/suesskartoffel.jpg",
+    "first_image": "/gemuese/suesskartoffel.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Sweet potato" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Batata dulce" },
@@ -455,7 +455,7 @@
     "category": "vegetable_misc"
   },
   {
-    "first_image": "/images/gemuese/topinambur.jpg",
+    "first_image": "/gemuese/topinambur.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Jerusalem artichoke" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Alcachofa de Jerusalén" },
