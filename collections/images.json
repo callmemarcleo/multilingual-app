@@ -300,8 +300,8 @@
     "category": "root_vegetables"
   },
   {
-    "first_image": "/gemuese/petersilienwurzel.jpg",
-    "second_image": "/gemuese/petersilienwurzel_2.jpg",
+    "first_image": "/gemuese/petersilie.jpg",
+    "second_image": "/gemuese/petersilie_2.jpg",
     "translations": [
       { "language_id": { "$oid": "67bed42569a3680a95974aa9" }, "translation": "Parsley root" },
       { "language_id": { "$oid": "67bed42569a3680a95974aaa" }, "translation": "Raíz de perejil" },
