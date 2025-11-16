@@ -2,10 +2,6 @@
 
 import LanguageCard from "@/components/LanguageCard";
 import Image from "next/image";
-import germany from "../public/img/germany.png";
-import unitedKingdom from "../public/img/united-kingdom.png";
-import spain from "../public/img/spain.png";
-import france from "../public/img/france.png";
 
 type Language = {
   name: string;
