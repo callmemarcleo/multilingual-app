@@ -15,11 +15,11 @@ export type ImageCard = {
 };
 
 /**
- * Ruft alle Bilderkarten (ImageCards) aus der MongoDB ab.
+ * Ruft alle Bilderkarten einer bestimmten Kategorie ab.
  */
-export async function getImageCards(): Promise<ImageCard[]> {
-  // Prisma greift hier auf dein Modell "images" zu.
+export async function getImageCardsByCategory(category: string): Promise<ImageCard[]> {
   const docs = await (db as any).images.findMany({
+    where: { category },
     select: {
       id: true,
       first_image: true,

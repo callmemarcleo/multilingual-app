@@ -1,20 +1,17 @@
-// src/app/(main)/images/page.tsx
+import { notFound } from "next/navigation";
 import { auth } from "@/lib/auth";
+import { getUserProfile } from "@/lib/user";
 import { redirect } from "next/navigation";
-import { getImageCards } from "@/lib/images";
-import Images from "@/components/Images";
+import ImagesMenuContent from "@/components/ImagesMenuContent";
 
-export const dynamic = "force-dynamic";
-
-export default async function ImagesPage() {
+export default async function ImagesMenuPage() {
   const session = await auth();
-  if (!session) redirect("/sign-in");
-
-  const cards = await getImageCards();
-
-  if (!cards.length) {
-    return <p className="p-4 text-red-500">No images found.</p>;
+  if (!session) {
+    redirect("/sign-in");
   }
 
-  return <Images cards={cards} />;
+  const user = await getUserProfile(session.user?.id || "");
+  if (!user) return notFound();
+
+  return <ImagesMenuContent />;
 }
