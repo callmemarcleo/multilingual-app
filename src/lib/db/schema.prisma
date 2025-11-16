@@ -287,11 +287,16 @@ type TranslationEntry {
 }
 
 model images {
-  id           String               @id @default(auto()) @map("_id") @db.ObjectId
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
   first_image  String
+  second_image String?   // optional
   category     String?
   translations ImageTranslation[]
 }
+
+
+
+
 
 type ImageTranslation {
   language_id  String   @db.ObjectId
