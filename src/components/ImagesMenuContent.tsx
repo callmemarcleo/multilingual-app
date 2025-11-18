@@ -6,7 +6,7 @@ const CATEGORIES = [
   { key: "vegetables", label: "Gemüse", emoji: "🥦" },
   { key: "fruits", label: "Früchte", emoji: "🍎" },
   { key: "grains", label: "Getreide / Weizen", emoji: "🌾" },
-  { key: "office", label: "Büromaterial", emoji: "🖨️" },
+  { key: "officesupplies", label: "Büromaterial", emoji: "🖨️" },
 ];
 
 export default function ImagesMenuContent() {
