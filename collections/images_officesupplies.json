@@ -1,0 +1,571 @@
+[
+  {
+    "first_image": "/officesupplies/schreibtisch.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Desk" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Escritorio" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Scrivania" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Schreibtisch" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Bureau" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/buerostuhl.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Office chair" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Silla de oficina" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Sedia da ufficio" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Bürostuhl" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Chaise de bureau" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/aktenschrank.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Filing cabinet" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Archivador" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Schedario" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Aktenschrank" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Armoire à dossiers" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/rollcontainer.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Mobile pedestal" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Cajonera con ruedas" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Cassettiera mobile" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Rollcontainer" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Caisson à roulettes" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/besprechungstisch.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Conference table" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Mesa de reuniones" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Tavolo riunioni" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Besprechungstisch" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Table de réunion" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/regal.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Shelf" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Estantería" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Scaffale" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Regal" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Étagère" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/sitzsack.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Beanbag" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Puf" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Pouf" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Sitzsack" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Pouf géant" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/kugelschreiber.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Ballpoint pen" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Bolígrafo" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Penna a sfera" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Kugelschreiber" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Stylo à bille" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/bleistift.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Pencil" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Lápiz" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Matita" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Bleistift" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Crayon" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/textmarker.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Highlighter" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Marcador" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Evidenziatore" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Textmarker" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Surligneur" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/notizblock.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Notepad" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Bloc de notas" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Blocco note" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Notizblock" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Bloc-notes" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/hefter.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Stapler" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Grapadora" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Graffettatrice" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Hefter" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Agrafeuse" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/ordner.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Folder" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Carpeta" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Cartella" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Ordner" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Classeur" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/locher.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Hole punch" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Perforadora" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Foratrice" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Locher" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Perforatrice" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/tacker.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Stapler gun" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Grapadora de mano" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Cucitrice" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Tacker" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Agrafeuse" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/klebeband.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Adhesive tape" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Cinta adhesiva" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Nastro adesivo" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Klebeband" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Ruban adhésif" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/postits.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Post-its" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Notas adhesivas" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Post-it" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Post-its" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Post-it" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/computer.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Computer" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Computadora" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Computer" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Computer" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Ordinateur" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/laptop.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Laptop" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Portátil" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Portatile" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Laptop" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Ordinateur portable" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/monitor.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Monitor" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Monitor" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Monitor" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Monitor" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Moniteur" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/tastatur.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Keyboard" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Teclado" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Tastiera" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Tastatur" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Clavier" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/maus.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Mouse" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Ratón" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Mouse" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Maus" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Souris" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/drucker.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Printer" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Impresora" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Stampante" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Drucker" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Imprimante" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/scanner.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Scanner" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Escáner" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Scanner" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Scanner" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Scanner" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/telefon.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Telephone" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Teléfono" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Telefono" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Telefon" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Téléphone" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/kopfhoerer.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Headphones" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Auriculares" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Cuffie" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Kopfhörer" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Casque" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/webcam.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Webcam" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Cámara web" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Webcam" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Webcam" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Webcam" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/kaffeemaschine.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Coffee machine" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Cafetera" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Macchina per caffè" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Kaffeemaschine" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Cafetière" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/wasserkocher.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Kettle" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Hervidor" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Bollitore" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Wasserkocher" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Bouilloire" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/mikrowelle.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Microwave" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Microondas" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Microonde" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Mikrowelle" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Micro-ondes" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/kuehlschrank.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Refrigerator" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Refrigerador" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Frigorifero" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Kühlschrank" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Réfrigérateur" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/geschirr.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Dishes" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Platos" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Piatti" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Geschirr" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Vaisselle" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/besteck.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Cutlery" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Cubiertos" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Posate" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Besteck" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Couverts" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/becher.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Cup" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Taza" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Tazza" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Becher" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Tasse" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/tasse.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Mug" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Taza de café" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Tazza da caffè" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Tasse" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Mug" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/kalender.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Calendar" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Calendario" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Calendario" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Kalender" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Calendrier" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/flipchart.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Flipchart" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Pizarra" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Lavagna a fogli mobili" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Flipchart" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Tableau" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/whiteboard.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Whiteboard" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Pizarra blanca" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Lavagna bianca" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Whiteboard" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Tableau blanc" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/pinnwand.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Pinboard" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Tablero de corcho" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Bacheca" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Pinnwand" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Tableau d'affichage" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/schreibtischunterlage.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Desk pad" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Protector de escritorio" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Tappetino da scrivania" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Schreibtischunterlage" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Sous-main" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/dokumentenablage.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Document tray" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Bandeja de documentos" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Vassoio porta documenti" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Dokumentenablage" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Casier à documents" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/muelleimer.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Trash can" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Cubo de basura" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Cestino" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Mülleimer" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Poubelle" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/lampe.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Lamp" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Lámpara" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Lampada" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Lampe" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Lampe" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/pflanze.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Plant" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Planta" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Pianta" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Pflanze" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Plante" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/uhr.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Clock" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Reloj" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Orologio" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Uhr" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Horloge" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/schere.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Scissors" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Tijeras" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Forbici" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Schere" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Ciseaux" }
+    ],
+    "category": "officesupplies"
+  },
+  {
+    "first_image": "/officesupplies/briefoeffner.jpg",
+    "second_image": null,
+    "translations": [
+      { "language_id": "67bed42569a3680a95974aa9", "translation": "Letter opener" },
+      { "language_id": "67bed42569a3680a95974aaa", "translation": "Abrecartas" },
+      { "language_id": "67bed42569a3680a95974aab", "translation": "Apribusta" },
+      { "language_id": "67bed4528f87b8e3161ad51b", "translation": "Brieföffner" },
+      { "language_id": "680b9178e6c767baf3bc3803", "translation": "Décapsuleur de lettres" }
+    ],
+    "category": "officesupplies"
+  }
+]
+
+
+
+
+
