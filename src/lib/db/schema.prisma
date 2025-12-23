@@ -295,9 +295,6 @@ model images {
 }
 
 
-
-
-
 type ImageTranslation {
   language_id  String   @db.ObjectId
   translation  String
