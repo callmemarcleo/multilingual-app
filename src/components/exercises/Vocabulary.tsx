@@ -190,9 +190,26 @@ export default function DarkFlashcards({ cards }: Props) {
               className="absolute inset-0 rounded-xl border-2 border-[#6A6A6A] bg-[#1E2A2E] backface-visibility-hidden rotate-y-180 flex items-center justify-center p-4"
               style={{ transform: "rotateY(180deg)" }}
             >
-              <p className="text-4xl font-semibold text-center max-w-xs">
-                {card.translation}
-              </p>
+              <div className="w-full max-w-md">
+                {card.translations?.length ? (
+                  <div className="flex flex-col gap-8">
+                    {card.translations.map((t, idx) => (
+                      <div key={`${t.languageId}-${idx}`} className="flex justify-between gap-4">
+                        <span className="text-xl text-gray-300 whitespace-nowrap">
+                          {t.languageName}:
+                        </span>
+                        <span className="text-xl font-semibold text-right break-words whitespace-pre-wrap">
+                          {t.text}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-xl text-gray-400 text-center">
+                    Keine Übersetzungen vorhanden.
+                  </p>
+                )}
+              </div>
             </div>
           </div>
         </motion.div>
