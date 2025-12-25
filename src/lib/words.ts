@@ -71,13 +71,19 @@ export async function getWordPairsPrisma(
   }
 }
 
+export type FlashcardTranslation = {
+  languageId: string;
+  languageName: string;
+  text: string;
+};
+
 export type RawFlashcard = {
   id: string;
   languageId: string;
   word: string;
   frontText: string;
   examples?: string[];
-  translation: string;
+  translations: FlashcardTranslation[];
   status: CardStatus;
 };
 
@@ -87,12 +93,18 @@ export async function getFlashcardsPrisma(
   userId: string
 ): Promise<RawFlashcard[]> {
   const progress = await getProgressMap(userId, targetLanguageId);
+
+  const langs = await db.languages.findMany({
+    select: { id: true, name: true },
+  });
+
+  const langNameById = new Map(langs.map((l) => [l.id, l.name]));
+
   const docs = await db.words.findMany({
     where: {
       language_id: targetLanguageId,
       translations: {
         some: {
-          language_id: userLocaleId,
           translation: { not: null },
         },
       },
@@ -110,10 +122,16 @@ export async function getFlashcardsPrisma(
   const cards: RawFlashcard[] = [];
 
   for (const w of docs) {
-    const t = (w.translations as TranslationEntry[]).find(
-      (x) => x.language_id === userLocaleId && x.translation?.trim()
-    )?.translation;
-    if (!t) continue;
+    const all = (w.translations as TranslationEntry[])
+    .filter((x) => x.translation && x.translation.trim().length > 0)
+    .map((x) => ({
+      languageId: x.language_id,
+      languageName: langNameById.get(x.language_id) ?? x.language_id,
+      text: x.translation!.trim(),
+    }));
+
+    if (all.length === 0) continue;
+
 
     cards.push({
       id: w.id,
@@ -121,7 +139,7 @@ export async function getFlashcardsPrisma(
       word: w.word,
       frontText: w.front_text!,
       examples: Array.isArray(w.examples) ? w.examples : [],
-      translation: t,
+      translations: all,
       status: progress[w.id] ?? 0,
     });
   }
