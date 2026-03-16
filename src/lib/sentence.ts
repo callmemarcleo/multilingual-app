@@ -36,7 +36,7 @@ export async function getBlankedSentenceExercises(
     const correctWordId = s.word_id;
 
     const correctWordDoc = await db.words.findFirst({
-      id: correctWordId,
+      where: { id: correctWordId },
     });
     if (!correctWordDoc) {
       continue;

@@ -42,8 +42,8 @@ export async function updateUserProfile(
   const updatedUser = await db.user.update({
     where: { id: userId },
     data: {
-      firstname: updates.firstname,
-      lastname: updates.lastname,
+      firstname: updates.firstname ?? undefined,
+      lastname: updates.lastname ?? undefined,
       email: updates.email,
       username: updates.username,
     },
