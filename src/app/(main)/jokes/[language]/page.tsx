@@ -1,12 +1,12 @@
 import JokesCarousel from "@/components/JokesCarousel";
 import { getJokesForLanguage, Joke } from "@/lib/jokes";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export default async function JokesByLanguagePage({
   params,
 }: {
-  params: { language: string };
+  params: Promise<{ language: string }>;
 }) {
   const { language } = await params;
   const pretty = language.charAt(0).toUpperCase() + language.slice(1);

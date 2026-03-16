@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 export default async function Page({
   params,
 }: {
-  params: { language: string };
+  params: Promise<{ language: string }>;
 }) {
   const session = await auth();
   if (!session) {
