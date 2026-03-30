@@ -18,6 +18,7 @@ import { ConjCard, getRandomConjExercises } from "@/lib/conjugations";
 import ConjugationGrid from "@/components/exercises/Conjugation";
 import { getPuzzleFlashcardsPrisma } from "@/lib/puzzles";
 import PuzzleFlashcards from "@/components/exercises/Puzzle";
+import { connection } from "next/server";
 
 
 const LOCALE_MAP: Record<string, string> = {
@@ -54,13 +55,13 @@ function shuffleArray<T>(array: T[]): T[] {
   return array;
 }
 
-export const dynamic = "force-dynamic";
-
 export default async function ExercisePage({
   params,
 }: {
   params: Promise<{ language: string; exerciseType: string }>;
 }) {
+  // connection() ersetzt dynamic = "force-dynamic" mit Cache Components
+  await connection();
   const session = await auth();
   if (!session) {
     redirect("/sign-in");

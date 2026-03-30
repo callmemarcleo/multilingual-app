@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ReactNode } from "react";
+import { ReactNode, Suspense } from "react";
 import "./globals.css";
 import { I18nProvider } from "@/contexts/I18nContext";
 
@@ -12,7 +12,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="relative h-screen w-screen bg-[#141F24]">
-        <I18nProvider>{children}</I18nProvider>
+        <Suspense>
+          <I18nProvider>{children}</I18nProvider>
+        </Suspense>
       </body>
     </html>
   );

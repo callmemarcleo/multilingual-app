@@ -1,19 +1,8 @@
+import { Suspense } from "react";
 import { getImageCardsByCategory } from "@/lib/images";
 import Images from "@/components/Images";
 
-export const revalidate = 86400;
-
-// Bekannte Kategorien zur Build-Zeit vorab generieren
-export async function generateStaticParams() {
-  return [
-    { category: "office_supplies" },
-    { category: "animals" },
-    { category: "food" },
-    { category: "sports" },
-    { category: "clothing" },
-  ];
-}
-
+// Statische Shell – wird zur Build-Zeit vorgerendert (PPR / Cache Components)
 export default async function ImagesByCategoryPage({
   params,
 }: {
@@ -21,6 +10,28 @@ export default async function ImagesByCategoryPage({
 }) {
   const { category } = await params;
 
+  const pretty =
+    category.charAt(0).toUpperCase() + category.slice(1).replace("_", " ");
+
+  return (
+    <div className="p-4">
+      {/* Statische Shell: sofort verfügbar */}
+      <h1 className="text-3xl font-bold mb-6 text-white">{pretty}</h1>
+
+      {/* Dynamischer Teil: streamt nach beim Request */}
+      <Suspense
+        fallback={
+          <p className="text-gray-400 animate-pulse">Bilder werden geladen…</p>
+        }
+      >
+        <ImageCards category={category} />
+      </Suspense>
+    </div>
+  );
+}
+
+// Separate async-Komponente für DB-Daten
+async function ImageCards({ category }: { category: string }) {
   const cards = await getImageCardsByCategory(category);
 
   if (!cards.length) {
@@ -31,13 +42,5 @@ export default async function ImagesByCategoryPage({
     );
   }
 
-  const pretty =
-    category.charAt(0).toUpperCase() + category.slice(1).replace("_", " ");
-
-  return (
-    <div className="p-4">
-      <h1 className="text-3xl font-bold mb-6 text-white">{pretty}</h1>
-      <Images cards={cards} />
-    </div>
-  );
+  return <Images cards={cards} />;
 }

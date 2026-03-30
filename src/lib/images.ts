@@ -1,4 +1,5 @@
 // src/lib/images.ts
+import { unstable_cacheLife as cacheLife } from "next/cache";
 import db from "./db";
 
 export type ImageTranslation = {
@@ -18,6 +19,7 @@ export type ImageCard = {
  * Ruft alle Bilderkarten einer bestimmten Kategorie ab.
  */
 export async function getImageCardsByCategory(category: string): Promise<ImageCard[]> {
+  "use cache";
   const docs = await (db as any).images.findMany({
     where: { category },
     select: {
