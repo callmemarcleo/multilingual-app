@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getUserProfile, updateUserProfile } from "@/lib/user";
 import { auth } from "@/lib/auth";
 import bcrypt from "bcrypt";
+import { revalidateTag } from "next/cache";
 
 export async function GET() {
   const session = await auth();
@@ -68,6 +69,7 @@ export async function PUT(req: NextRequest) {
       );
     }
 
+    revalidateTag(`user-profile-${session.user.id}`, "minutes");
     return NextResponse.json({ success: true, user: updated });
   } catch (error: any) {
     return NextResponse.json({

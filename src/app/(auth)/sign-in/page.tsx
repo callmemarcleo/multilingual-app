@@ -1,15 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { LabeledInput } from "@/components/ui/labeled-input";
 import { executeAction } from "@/lib/executeAction";
-import { auth, signIn } from "@/lib/auth";
+import { signIn } from "@/lib/auth";
 //import { Checkbox } from "@/components/ui/checkbox";
-import { redirect } from "next/navigation";
 import Link from "next/link";
 import OAuthButton from "@/components/ui/oAuthButton";
 
 const Page = async () => {
-  const session = await auth();
-  if (session) redirect("/");
   return (
     <div className="w-5/6 m-auto">
       <h1 className="text-2xl font-bold mb-4 text-white">

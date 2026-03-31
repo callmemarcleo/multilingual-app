@@ -200,7 +200,7 @@ export default async function ExercisePage({
         ]);
 
         exercises.push({
-          id: `ex_${languageData.id}_${i}_${Date.now()}`,
+          id: `ex_${languageData.id}_${i}`,
           words: wordsInExercise,
           translations: shuffledTranslationsForDisplay,
           correctPairs: correctPairsMap,

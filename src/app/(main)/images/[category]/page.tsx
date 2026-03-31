@@ -1,6 +1,11 @@
 import { Suspense } from "react";
-import { getImageCardsByCategory } from "@/lib/images";
+import { getImageCardsByCategory, getImageCategories } from "@/lib/images";
 import Images from "@/components/Images";
+
+export async function generateStaticParams() {
+  const categories = await getImageCategories();
+  return categories.map((category) => ({ category }));
+}
 
 // Statische Shell – wird zur Build-Zeit vorgerendert (PPR / Cache Components)
 export default async function ImagesByCategoryPage({

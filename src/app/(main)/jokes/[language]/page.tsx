@@ -1,7 +1,15 @@
 import JokesCarousel from "@/components/JokesCarousel";
 import { getJokesForLanguage, Joke } from "@/lib/jokes";
 
-export const revalidate = 3600;
+export function generateStaticParams() {
+  return [
+    { language: "german" },
+    { language: "english" },
+    { language: "spanish" },
+    { language: "italian" },
+    { language: "french" },
+  ];
+}
 
 export default async function JokesByLanguagePage({
   params,

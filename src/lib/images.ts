@@ -16,6 +16,18 @@ export type ImageCard = {
 };
 
 /**
+ * Ruft alle bekannten Bildkategorien aus der DB ab (für generateStaticParams).
+ */
+export async function getImageCategories(): Promise<string[]> {
+  const docs = await (db as any).images.findMany({
+    select: { category: true },
+    distinct: ["category"],
+    where: { category: { not: null } },
+  });
+  return docs.map((d: any) => d.category as string);
+}
+
+/**
  * Ruft alle Bilderkarten einer bestimmten Kategorie ab.
  */
 export async function getImageCardsByCategory(category: string): Promise<ImageCard[]> {
