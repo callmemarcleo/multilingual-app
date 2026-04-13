@@ -1,5 +1,9 @@
-import JokesCarousel from "@/components/JokesCarousel";
+import dynamic from "next/dynamic";
 import { getJokesForLanguage, Joke } from "@/lib/jokes";
+
+const JokesCarousel = dynamic(() => import("@/components/JokesCarousel"), {
+  loading: () => <p className="text-gray-400 animate-pulse">Witze werden geladen…</p>,
+});
 
 export function generateStaticParams() {
   return [

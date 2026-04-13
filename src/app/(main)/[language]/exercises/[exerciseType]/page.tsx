@@ -1,24 +1,60 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import FillInTheGap from "@/components/exercises/FillInTheBlank";
-
+import dynamic from "next/dynamic";
 import { getRandomExercises } from "@/lib/exercises";
 import { getLanguageByName } from "@/lib/languages";
 import { notFound, redirect } from "next/navigation";
 import { getFlashcardsPrisma, getWordPairsPrisma } from "@/lib/words";
-import Translations from "@/components/exercises/Translations";
-import Idioms from "@/components/exercises/Idioms";
 import { cookies } from "next/headers";
-import DarkFlashcards from "@/components/exercises/Vocabulary";
 import { auth } from "@/lib/auth";
 import { getAccentFlashcards } from "@/lib/accents";
-import Accent from "@/components/exercises/Accent";
 import { getProverbFlashcards } from "@/lib/proverbs";
-import ProverbFlashcards from "@/components/exercises/Proverb";
 import { ConjCard, getRandomConjExercises } from "@/lib/conjugations";
-import ConjugationGrid from "@/components/exercises/Conjugation";
 import { getPuzzleFlashcardsPrisma } from "@/lib/puzzles";
-import PuzzleFlashcards from "@/components/exercises/Puzzle";
 import { connection } from "next/server";
+
+function ExerciseSkeleton() {
+  return (
+    <div className="animate-pulse space-y-4 p-6">
+      <div className="h-8 bg-white/10 rounded w-1/3" />
+      <div className="h-48 bg-white/10 rounded" />
+      <div className="h-10 bg-white/10 rounded w-1/2" />
+    </div>
+  );
+}
+
+// Dynamic imports — nur der aktive Übungstyp wird in den Client-Bundle geladen
+const FillInTheGap = dynamic(
+  () => import("@/components/exercises/FillInTheBlank"),
+  { loading: () => <ExerciseSkeleton /> }
+);
+const Translations = dynamic(
+  () => import("@/components/exercises/Translations"),
+  { loading: () => <ExerciseSkeleton /> }
+);
+const Idioms = dynamic(
+  () => import("@/components/exercises/Idioms"),
+  { loading: () => <ExerciseSkeleton /> }
+);
+const DarkFlashcards = dynamic(
+  () => import("@/components/exercises/Vocabulary"),
+  { loading: () => <ExerciseSkeleton /> }
+);
+const Accent = dynamic(
+  () => import("@/components/exercises/Accent"),
+  { loading: () => <ExerciseSkeleton /> }
+);
+const ProverbFlashcards = dynamic(
+  () => import("@/components/exercises/Proverb"),
+  { loading: () => <ExerciseSkeleton /> }
+);
+const ConjugationGrid = dynamic(
+  () => import("@/components/exercises/Conjugation"),
+  { loading: () => <ExerciseSkeleton /> }
+);
+const PuzzleFlashcards = dynamic(
+  () => import("@/components/exercises/Puzzle"),
+  { loading: () => <ExerciseSkeleton /> }
+);
 
 
 const LOCALE_MAP: Record<string, string> = {

@@ -1,6 +1,10 @@
 import { Suspense } from "react";
+import dynamic from "next/dynamic";
 import { getImageCardsByCategory, getImageCategories } from "@/lib/images";
-import Images from "@/components/Images";
+
+const Images = dynamic(() => import("@/components/Images"), {
+  loading: () => <p className="text-gray-400 animate-pulse">Bilder werden geladen…</p>,
+});
 
 export async function generateStaticParams() {
   const categories = await getImageCategories();
