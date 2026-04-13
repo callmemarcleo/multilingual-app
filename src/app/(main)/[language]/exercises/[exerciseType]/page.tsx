@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import dynamic from "next/dynamic";
+import { shuffle } from "@/lib/utils";
 import { getRandomExercises } from "@/lib/exercises";
 import { getLanguageByName } from "@/lib/languages";
 import { notFound, redirect } from "next/navigation";
@@ -77,19 +78,6 @@ type RawWordPair = {
   translation: string;
 };
 
-function shuffleArray<T>(array: T[]): T[] {
-  let currentIndex = array.length,
-    randomIndex;
-  while (currentIndex !== 0) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex],
-      array[currentIndex],
-    ];
-  }
-  return array;
-}
 
 export default async function ExercisePage({
   params,
@@ -198,7 +186,7 @@ export default async function ExercisePage({
       );
     }
 
-    const shuffledPairs = shuffleArray(rawWordPairs);
+    const shuffledPairs = shuffle(rawWordPairs);
 
     const exercises: Exercise[] = [];
     const pairsPerExercise = 5;
@@ -231,7 +219,7 @@ export default async function ExercisePage({
           correctPairsMap[p.translation] = p.word;
         });
 
-        const shuffledTranslationsForDisplay = shuffleArray([
+        const shuffledTranslationsForDisplay = shuffle([
           ...translationsInExercise,
         ]);
 

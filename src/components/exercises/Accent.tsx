@@ -5,6 +5,7 @@ import { useState, useEffect, KeyboardEvent } from "react";
 import clsx from "clsx";
 import { FiArrowLeft, FiArrowRight, FiInfo } from "react-icons/fi";
 import { Button } from "../ui/button";
+import { HelpModal } from "../ui/HelpModal";
 import { motion, AnimatePresence } from "framer-motion";
 import { AccentCard } from "@/lib/accents";
 
@@ -134,27 +135,13 @@ export default function Accent({ cards }: Props) {
       </div>
 
       {showHelp && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70"
-          onClick={() => setHelp(false)}
-        >
-          <div
-            className="w-[90%] max-w-md bg-[#141F24] border border-[#444] rounded-xl p-6 space-y-4 text-gray-200"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <h3 className="text-xl font-semibold flex items-center gap-2">
-              <FiInfo /> How to navigate
-            </h3>
-            <ul className="list-disc pl-6 space-y-1 text-sm">
-              <li>Click or ↑/↓ or Space/Enter to reveal steps.</li>
-              <li>←/→ to change card.</li>
-              <li>Esc or outside click to close.</li>
-            </ul>
-            <div className="text-right">
-              <Button onClick={() => setHelp(false)}>Close</Button>
-            </div>
-          </div>
-        </div>
+        <HelpModal title="How to navigate" onClose={() => setHelp(false)}>
+          <ul className="list-disc pl-6 space-y-1 text-sm">
+            <li>Click or ↑/↓ or Space/Enter to reveal steps.</li>
+            <li>←/→ to change card.</li>
+            <li>Esc or outside click to close.</li>
+          </ul>
+        </HelpModal>
       )}
     </div>
   );

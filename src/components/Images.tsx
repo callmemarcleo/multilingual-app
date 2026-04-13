@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import clsx from "clsx";
 import { FiArrowLeft, FiArrowRight, FiInfo, FiRefreshCcw } from "react-icons/fi";
 import { Button } from "./ui/button";
+import { HelpModal } from "./ui/HelpModal";
 import Image from "next/image";
 import { ImageCard } from "@/lib/images";
 
@@ -149,26 +150,12 @@ export default function Images({ cards }: Props) {
 
       {/* Help */}
       {showHelp && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70"
-          onClick={() => setHelp(false)}
-        >
-          <div
-            className="w-[90%] max-w-md bg-[#141F24] border border-[#444] rounded-xl p-6 text-gray-200 space-y-3"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <h3 className="text-xl font-semibold flex items-center gap-2">
-              <FiInfo /> Image Controls
-            </h3>
-            <ul className="list-disc pl-6 space-y-1 text-sm">
-              <li>Click to flip card (image ↔ translations).</li>
-              <li>← / → to change image.</li>
-            </ul>
-            <div className="text-right">
-              <Button onClick={() => setHelp(false)}>Close</Button>
-            </div>
-          </div>
-        </div>
+        <HelpModal title="Image Controls" onClose={() => setHelp(false)}>
+          <ul className="list-disc pl-6 space-y-1 text-sm">
+            <li>Click to flip card (image ↔ translations).</li>
+            <li>← / → to change image.</li>
+          </ul>
+        </HelpModal>
       )}
     </div>
   );

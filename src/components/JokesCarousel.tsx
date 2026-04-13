@@ -6,6 +6,7 @@ import { FiArrowLeft, FiArrowRight, FiInfo } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 import { Joke } from "@/lib/jokes";
 import { Button } from "./ui/button";
+import { HelpModal } from "./ui/HelpModal";
 import clsx from "clsx";
 
 const variants = {
@@ -126,27 +127,13 @@ export default function JokesCarousel({ jokes }: Props) {
         </Button>
       </div>
       {showHelp && (
-        <div
-          className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
-          onClick={() => setHelp(false)}
-        >
-          <div
-            className="bg-[#141F24] border border-[#444] rounded-xl p-6 max-w-sm text-gray-200"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <h3 className="flex items-center gap-2 text-xl font-semibold">
-              <FiInfo /> How to navigate
-            </h3>
-            <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-              <li>Click ‘Flip’ (or Space/Enter) to show the joke.</li>
-              <li>Use ← / → (or buttons) to switch jokes.</li>
-              <li>Esc or outside click closes this help.</li>
-            </ul>
-            <div className="mt-4 text-right">
-              <Button onClick={() => setHelp(false)}>Close</Button>
-            </div>
-          </div>
-        </div>
+        <HelpModal title="How to navigate" onClose={() => setHelp(false)}>
+          <ul className="list-disc pl-6 space-y-1 text-sm">
+            <li>Click ‘Flip’ (or Space/Enter) to show the joke.</li>
+            <li>Use ← / → (or buttons) to switch jokes.</li>
+            <li>Esc or outside click closes this help.</li>
+          </ul>
+        </HelpModal>
       )}
     </div>
   );

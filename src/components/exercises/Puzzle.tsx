@@ -13,6 +13,7 @@ import {
   FiRefreshCcw,
 } from "react-icons/fi";
 import { Button } from "../ui/button";
+import { HelpModal } from "../ui/HelpModal";
 import { motion, AnimatePresence } from "framer-motion";
 import { RawPuzzleCard } from "@/lib/puzzles";
 import { CardStatus } from "@/lib/wordProgress";
@@ -279,23 +280,17 @@ export default function PuzzleFlashcards({ cards }: Props) {
 
       {/* Help Modal */}
       {showHelp && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70" onClick={() => setHelp(false)}>
-          <div className="w-[90%] max-w-md bg-[#141F24] border border-[#444] rounded-xl p-6 space-y-4 text-gray-200" onClick={(e) => e.stopPropagation()}>
-            <h3 className="text-xl font-semibold flex items-center gap-2"><FiInfo /> Puzzle Controls</h3>
-            <ul className="list-disc pl-6 space-y-1 text-sm">
-              <li>Click or ↑ / ↓ or Space to reveal next step (keywords → puzzle → solution → translations).</li>
-              <li>← / → change card.</li>
-              <li>✔︎ single-click → 1, double-click → 2.</li>
-              <li>✕ resets the card.</li>
-              <li>“Only un-learnt” hides mastered cards.</li>
-              <li>“Reset all” clears progress for this language.</li>
-              <li>Esc closes this window.</li>
-            </ul>
-            <div className="text-right">
-              <Button onClick={() => setHelp(false)}>Close</Button>
-            </div>
-          </div>
-        </div>
+        <HelpModal title="Puzzle Controls" onClose={() => setHelp(false)}>
+          <ul className="list-disc pl-6 space-y-1 text-sm">
+            <li>Click or ↑ / ↓ or Space to reveal next step (keywords → puzzle → solution → translations).</li>
+            <li>← / → change card.</li>
+            <li>✔︎ single-click → 1, double-click → 2.</li>
+            <li>✕ resets the card.</li>
+            <li>"Only un-learnt" hides mastered cards.</li>
+            <li>"Reset all" clears progress for this language.</li>
+            <li>Esc closes this window.</li>
+          </ul>
+        </HelpModal>
       )}
     </div>
   );

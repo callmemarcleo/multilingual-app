@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import ProgressBar, { ExerciseProgress } from "../ProgressBar";
+import { useState } from "react";
+import ProgressBar from "../ProgressBar";
 import { Button } from "../ui/button";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { GoXCircleFill } from "react-icons/go";
+import { useExerciseCheck } from "@/hooks/useExerciseCheck";
 
 type Exercise = {
   id: string;
@@ -20,66 +20,24 @@ type IdiomProps = {
 };
 
 export default function Idioms({ exercises, learningLanguage }: IdiomProps) {
-  const router = useRouter();
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
-  const [hasChecked, setHasChecked] = useState(false);
 
-  const initialStatuses = exercises.map((ex) => ({
-    id: ex.id,
-    status: "default" as const,
-  }));
-  const [exerciseStatuses, setExerciseStatuses] =
-    useState<ExerciseProgress[]>(initialStatuses);
-
-  const handleCancel = () => {
-    router.push(`/${learningLanguage.toLowerCase()}`);
-  };
+  const {
+    activeIndex,
+    hasChecked,
+    isCorrect,
+    revealedCorrect,
+    exerciseStatuses,
+    currentExercise,
+    submitAnswer,
+    handleCancel,
+  } = useExerciseCheck(exercises, learningLanguage, (ex) => ex.correct_answer);
 
   const handleCheck = () => {
-    if (hasChecked) {
-      if (activeIndex < exercises.length - 1) {
-        setActiveIndex(activeIndex + 1);
-        setSelectedAnswer(null);
-        setIsCorrect(null);
-        setHasChecked(false);
-      } else {
-        alert("Alle Fragen abgeschlossen!");
-        router.push(`/${learningLanguage.toLowerCase()}`);
-      }
-      return;
-    }
-
-    if (!selectedAnswer) return;
-
-    const currentEx = exercises[activeIndex];
-    if (!currentEx) return;
-
-    const correct = currentEx.correct_answer.toLowerCase().trim();
-    const isAnswerCorrect = selectedAnswer.toLowerCase().trim() === correct;
-
-    setExerciseStatuses((prev) =>
-      prev.map((item, i) =>
-        i === activeIndex
-          ? { ...item, status: isAnswerCorrect ? "right" : "wrong" }
-          : item
-      )
-    );
-
-    setIsCorrect(isAnswerCorrect);
-    setHasChecked(true);
+    if (!selectedAnswer && !hasChecked) return;
+    submitAnswer(selectedAnswer ?? "", () => setSelectedAnswer(null));
   };
 
-  useEffect(() => {
-    const newStatuses = exercises.map((ex) => ({
-      id: ex.id,
-      status: "default" as const,
-    }));
-    setExerciseStatuses(newStatuses);
-  }, [exercises]);
-
-  const currentExercise = exercises[activeIndex];
   if (!currentExercise) {
     return <div>Keine Übungen gefunden.</div>;
   }
@@ -103,12 +61,12 @@ export default function Idioms({ exercises, learningLanguage }: IdiomProps) {
           <Button
             key={option}
             onClick={() => setSelectedAnswer(option)}
-            className={`w-full p-4 border rounded-md text-left 
+            className={`w-full p-4 border rounded-md text-left
                         ${
                           selectedAnswer === option
                             ? "border-blue-500 bg-blue-900 text-white"
                             : "border-gray-600 bg-gray-800"
-                        } 
+                        }
                         hover:border-blue-400 transition-all`}
           >
             {index + 1}. {option}
@@ -135,7 +93,7 @@ export default function Idioms({ exercises, learningLanguage }: IdiomProps) {
                   <p className="text-red-500 font-bold">Falsch!</p>
                 </div>
                 <p className="text-red-400 font-semibold">
-                  Korrekte Antwort: {currentExercise.correct_answer}
+                  Korrekte Antwort: {revealedCorrect}
                 </p>
               </div>
             )}
@@ -144,7 +102,7 @@ export default function Idioms({ exercises, learningLanguage }: IdiomProps) {
 
         <Button
           onClick={handleCheck}
-          disabled={!selectedAnswer}
+          disabled={!selectedAnswer && !hasChecked}
           className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md"
         >
           {buttonLabel}

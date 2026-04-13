@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import ProgressBar, { ExerciseProgress } from "../ProgressBar";
+import { useState } from "react";
+import ProgressBar from "../ProgressBar";
 import ExerciseInput from "../ui/exerciseInput";
 import { Button } from "../ui/button";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { GoXCircleFill } from "react-icons/go";
+import { useExerciseCheck } from "@/hooks/useExerciseCheck";
 
 type Exercise = {
   id: string;
@@ -23,54 +23,20 @@ export default function FillInTheBlank({
   exercises,
   learningLanguage,
 }: FillInTheBlankProps) {
-  const router = useRouter();
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-  const [correctAnswer, setCorrectAnswer] = useState<string>("");
   const [answer, setAnswer] = useState("");
-  const [hasChecked, setHasChecked] = useState(false);
 
-  const initialStatuses = exercises.map((ex) => ({
-    id: ex.id,
-    status: "default" as const,
-  }));
-  const [exerciseStatuses, setExerciseStatuses] =
-    useState<ExerciseProgress[]>(initialStatuses);
+  const {
+    activeIndex,
+    hasChecked,
+    isCorrect,
+    revealedCorrect,
+    exerciseStatuses,
+    currentExercise,
+    submitAnswer,
+    handleCancel,
+  } = useExerciseCheck(exercises, learningLanguage, (ex) => ex.correct_answer);
 
-  const handleCancel = () => {
-    router.push(`/${learningLanguage.toLowerCase()}`);
-  };
-
-  const handleCheck = () => {
-    if (hasChecked) {
-      if (activeIndex < exercises.length - 1) {
-        setActiveIndex(activeIndex + 1);
-        setAnswer("");
-        setIsCorrect(null);
-        setHasChecked(false);
-      } else {
-        alert("Alle Fragen abgeschlossen!");
-        router.push(`/${learningLanguage.toLowerCase()}`);
-      }
-      return;
-    }
-    const currentEx = exercises[activeIndex];
-    if (!currentEx) return;
-
-    const correct = currentEx.correct_answer.toLowerCase().trim();
-    setCorrectAnswer(correct);
-    const userAnswer = answer.toLowerCase().trim();
-    const isAnswerCorrect = correct === userAnswer;
-    setExerciseStatuses((prev) =>
-      prev.map((item, i) =>
-        i === activeIndex
-          ? { ...item, status: isAnswerCorrect ? "right" : "wrong" }
-          : item
-      )
-    );
-    setIsCorrect(isAnswerCorrect);
-    setHasChecked(true);
-  };
+  const handleCheck = () => submitAnswer(answer, () => setAnswer(""));
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Enter") {
@@ -79,15 +45,6 @@ export default function FillInTheBlank({
     }
   };
 
-  useEffect(() => {
-    const newStatuses = exercises.map((ex) => ({
-      id: ex.id,
-      status: "default" as const,
-    }));
-    setExerciseStatuses(newStatuses);
-  }, [exercises]);
-
-  const currentExercise = exercises[activeIndex];
   if (!currentExercise) {
     return <div>Keine Übungen gefunden.</div>;
   }
@@ -133,7 +90,7 @@ export default function FillInTheBlank({
                   <p className="text-red-500 font-bold">Falsch!</p>
                 </div>
                 <p className="text-red-400 font-semibold">
-                  Korrekte Antwort: {correctAnswer}
+                  Korrekte Antwort: {revealedCorrect}
                 </p>
               </div>
             )}
