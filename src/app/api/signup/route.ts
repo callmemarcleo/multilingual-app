@@ -2,34 +2,19 @@ import { NextResponse } from "next/server";
 import db from "@/lib/db";
 import bcrypt from "bcrypt";
 import { z } from "zod";
+import { userSignupSchema } from "@/lib/schema";
 
-const userSignupSchema = z.object({
-  firstname: z.string().min(1),
-  lastname: z.string().min(1),
-  username: z.string().min(3),
-  email: z.string().email(),
-  password: z.string().min(6),
-});
+const signupRequestSchema = userSignupSchema
+  .extend({ confirmPassword: z.string() })
+  .refine((data) => data.password === data.confirmPassword, {
+    message: "Passwords do not match.",
+    path: ["confirmPassword"],
+  });
 
 export async function POST(request: Request) {
   try {
-    /*const formData = await request.formData();
-    const firstname = formData.get("firstname")?.toString() ?? "";
-    const lastname = formData.get("lastname")?.toString() ?? "";
-    const username = formData.get("username")?.toString() ?? "";
-    const email = formData.get("email")?.toString() ?? "";
-    const password = formData.get("password")?.toString() ?? "";*/
-
-    const { firstname, lastname, username, email, password } =
-      await request.json();
-
-    const parsed = userSignupSchema.parse({
-      firstname,
-      lastname,
-      username,
-      email,
-      password,
-    });
+    const body = await request.json();
+    const parsed = signupRequestSchema.parse(body);
 
     const hashedPassword = await bcrypt.hash(parsed.password, 10);
 
@@ -45,10 +30,25 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ success: true }, { status: 200 });
   } catch (err) {
+    if (err instanceof z.ZodError) {
+      return NextResponse.json(
+        { success: false, error: err.errors[0].message },
+        { status: 400 }
+      );
+    }
+
+    // Prisma unique constraint violation (duplicate email or username)
+    if ((err as { code?: string })?.code === "P2002") {
+      return NextResponse.json(
+        { success: false, error: "An account with this email already exists." },
+        { status: 409 }
+      );
+    }
+
     console.error(err);
     return NextResponse.json(
-      { success: false, error: (err as Error).message },
-      { status: 400 }
+      { success: false, error: "Registration failed. Please try again." },
+      { status: 500 }
     );
   }
 }

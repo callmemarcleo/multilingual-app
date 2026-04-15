@@ -47,7 +47,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
           user.password
         );
         if (!isValid) {
-          throw new Error("Invalid password.");
+          throw new Error("Invalid credentials.");
         }
 
         return user;
@@ -57,7 +57,9 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
   callbacks: {
     async signIn({ user, account, profile }) {
       if (account?.provider === "google") {
-        const fallbackUsername = profile?.email?.split("@")[0] ?? "googleuser";
+        const fallbackUsername = profile?.email
+          ? profile.email.split("@")[0]
+          : `googleuser_${uuid().slice(0, 8)}`;
         (user as any).username = fallbackUsername;
 
         const fullName = profile?.name || "";
@@ -67,7 +69,9 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         (user as any).lastname = last || "";
       }
       if (account?.provider === "github") {
-        const fallbackUsername = profile?.email?.split("@")[0] ?? "githubuser";
+        const fallbackUsername = profile?.email
+          ? profile.email.split("@")[0]
+          : `githubuser_${uuid().slice(0, 8)}`;
         (user as any).username = fallbackUsername;
 
         const fullName = profile?.name || "";
