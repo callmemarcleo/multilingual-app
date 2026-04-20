@@ -1,10 +1,22 @@
 // src/lib/images.ts
-import { unstable_cacheLife as cacheLife } from "next/cache";
+import { cacheLife } from "next/cache";
 import db from "./db";
 
 export type ImageTranslation = {
   language_id: string;
   translation: string;
+};
+
+export type QuizQuestion = {
+  question: string;
+  options: string[];
+  correctIndex: number;
+};
+
+export type ImageQuiz = {
+  vegetableType: QuizQuestion;
+  origin: QuizQuestion;
+  season: QuizQuestion;
 };
 
 export type ImageCard = {
@@ -13,6 +25,8 @@ export type ImageCard = {
   second_image?: string | null;
   translations: ImageTranslation[];
   category?: string | null;
+  /** Quiz-Daten sind optional – alte Karten ohne quiz-Feld funktionieren weiterhin. */
+  quiz?: ImageQuiz;
 };
 
 /**
@@ -29,9 +43,12 @@ export async function getImageCategories(): Promise<string[]> {
 
 /**
  * Ruft alle Bilderkarten einer bestimmten Kategorie ab.
+ * Quiz-Daten werden mitgeladen, falls vorhanden.
  */
 export async function getImageCardsByCategory(category: string): Promise<ImageCard[]> {
   "use cache";
+  cacheLife("minutes");
+
   const docs = await (db as any).images.findMany({
     where: { category },
     select: {
@@ -40,6 +57,7 @@ export async function getImageCardsByCategory(category: string): Promise<ImageCa
       second_image: true,
       translations: true,
       category: true,
+      quiz: true,
     },
   });
 
@@ -52,5 +70,29 @@ export async function getImageCardsByCategory(category: string): Promise<ImageCa
       translation: t.translation ?? "",
     })),
     category: d.category ?? null,
+    quiz: parseQuiz(d.quiz),
   }));
+}
+
+/** Wandelt den rohen DB-Wert in einen typisierten ImageQuiz um (oder undefined). */
+function parseQuiz(raw: any): ImageQuiz | undefined {
+  if (!raw) return undefined;
+
+  const parseQ = (q: any): QuizQuestion | undefined => {
+    if (!q || typeof q.question !== "string" || !Array.isArray(q.options)) {
+      return undefined;
+    }
+    return {
+      question: q.question,
+      options: q.options as string[],
+      correctIndex: Number(q.correctIndex ?? 0),
+    };
+  };
+
+  const vegetableType = parseQ(raw.vegetableType);
+  const origin = parseQ(raw.origin);
+  const season = parseQ(raw.season);
+
+  if (!vegetableType || !origin || !season) return undefined;
+  return { vegetableType, origin, season };
 }
