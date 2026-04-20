@@ -215,7 +215,7 @@ export default function FillInTheBlank({
                   disabled={hasChecked}
                   aria-label={`Lücke ${i + 1}`}
                   className={[
-                    "w-28 border-b-2 bg-transparent px-1 py-0.5 text-center",
+                    "w-28 border-2 rounded bg-transparent px-1 py-0.2 text-center",
                     "focus:outline-none transition-colors",
                     fieldStatuses[i] === "correct"
                       ? "border-green-500 text-green-400"
