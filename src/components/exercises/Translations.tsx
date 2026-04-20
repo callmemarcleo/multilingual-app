@@ -27,53 +27,61 @@ export default function Translations({
   const [activeIndex, setActiveIndex] = useState(0);
   const [selected, setSelected] = useState<string[]>([]);
   const [matchedPairs, setMatchedPairs] = useState<Record<string, string>>({});
-  const [wrongPair, setWrongPair] = useState<string[]>([]);
-  const [hasChecked, setHasChecked] = useState(false);
+  const [wrongPairs, setWrongPairs] = useState<string[][]>([]);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 
-  const initialStatuses = exercises.map((ex) => ({
-    id: ex.id,
-    status: "default" as const,
-  }));
-  const [exerciseStatuses, setExerciseStatuses] =
-    useState<ExerciseProgress[]>(initialStatuses);
+  const [exerciseStatuses, setExerciseStatuses] = useState<ExerciseProgress[]>(
+    exercises.map((ex) => ({ id: ex.id, status: "default" as const }))
+  );
+
+  useEffect(() => {
+    setExerciseStatuses(
+      exercises.map((ex) => ({ id: ex.id, status: "default" as const }))
+    );
+  }, [exercises]);
+
+  const currentExercise = exercises[activeIndex];
+  if (!currentExercise) return <div>Keine Übungen gefunden.</div>;
 
   const handleCancel = () => {
     router.push(`/${learningLanguage.toLowerCase()}`);
   };
 
-  const handleCheck = () => {
-    const correctPairs = exercises[activeIndex].correctPairs;
-    const allMatched = Object.entries(correctPairs).every(
-      ([k, v]) => matchedPairs[k] === v
+  // ── Helpers ────────────────────────────────────────────────────────────────
+
+  const isMatched = (word: string) => matchedPairs[word] !== undefined;
+  const isWrong   = (word: string) => wrongPairs.some((pair) => pair.includes(word));
+  const isSelected = (word: string) => selected.includes(word);
+
+  // ── Auto-complete: fires after every correct match ─────────────────────────
+
+  const checkCompletion = (
+    newMatchedPairs: Record<string, string>,
+    currentWrongPairs: string[][]
+  ) => {
+    const allWords = [...currentExercise.words, ...currentExercise.translations];
+    const wrongWords = new Set(currentWrongPairs.flat());
+
+    // Done when every word is either matched (green) or wrong (red) — none neutral
+    const allDone = allWords.every(
+      (w) => newMatchedPairs[w] !== undefined || wrongWords.has(w)
     );
+    if (!allDone) return;
 
-    setIsCorrect(allMatched);
-    setHasChecked(true);
-
-    const newStatuses = [...exerciseStatuses];
-    newStatuses[activeIndex] = {
-      ...newStatuses[activeIndex],
-      status: allMatched ? "right" : "wrong",
-    };
-    setExerciseStatuses(newStatuses);
+    const correct = currentWrongPairs.length === 0;
+    setIsCorrect(correct);
+    setExerciseStatuses((prev) =>
+      prev.map((s, i) =>
+        i === activeIndex ? { ...s, status: correct ? "right" : "wrong" } : s
+      )
+    );
   };
 
-  useEffect(() => {
-    const newStatuses = exercises.map((ex) => ({
-      id: ex.id,
-      status: "default" as const,
-    }));
-    setExerciseStatuses(newStatuses);
-  }, [exercises]);
-
-  const currentExercise = exercises[activeIndex];
-  if (!currentExercise) {
-    return <div>Keine Übungen gefunden.</div>;
-  }
+  // ── Selection handler ──────────────────────────────────────────────────────
 
   const handleSelect = (item: string) => {
-    if (selected.includes(item)) return;
+    if (isMatched(item) || isWrong(item) || selected.includes(item)) return;
+
     const updated = [...selected, item];
     setSelected(updated);
 
@@ -84,29 +92,58 @@ export default function Translations({
         currentExercise.correctPairs[second] === first;
 
       if (isMatch) {
-        setMatchedPairs((prev) => ({
-          ...prev,
+        const newMatchedPairs = {
+          ...matchedPairs,
           [first]: second,
           [second]: first,
-        }));
+        };
+        setMatchedPairs(newMatchedPairs);
+        // Pass current wrongPairs (not stale) into the check
+        checkCompletion(newMatchedPairs, wrongPairs);
       } else {
-        setWrongPair([first, second]);
-        setTimeout(() => {
-          setWrongPair([]);
-        }, 800);
+        const newWrongPairs = [...wrongPairs, [first, second]];
+        setWrongPairs(newWrongPairs);
+        // Wrong pair permanently locked — check if remaining correct pairs
+        // are all already matched (edge case: last action was a wrong pick)
+        checkCompletion(matchedPairs, newWrongPairs);
       }
 
-      setTimeout(() => {
-        setSelected([]);
-      }, 500);
+      setTimeout(() => setSelected([]), 500);
     }
   };
 
-  const isMatched = (word: string) => matchedPairs[word] !== undefined;
-  const isSelected = (word: string) => selected.includes(word);
-  const isWrong = (word: string) => wrongPair.includes(word);
+  // ── Navigation ─────────────────────────────────────────────────────────────
 
-  const buttonLabel = hasChecked ? "Nächste Frage" : "Überprüfen";
+  const handleNext = () => {
+    if (activeIndex < exercises.length - 1) {
+      setActiveIndex((i) => i + 1);
+      setMatchedPairs({});
+      setWrongPairs([]);
+      setSelected([]);
+      setIsCorrect(null);
+    } else {
+      alert("Alle Fragen abgeschlossen!");
+      router.push(`/${learningLanguage.toLowerCase()}`);
+    }
+  };
+
+  const handleRepeat = () => {
+    setMatchedPairs({});
+    setWrongPairs([]);
+    setSelected([]);
+    setIsCorrect(null);
+  };
+
+  // ── Button styling ─────────────────────────────────────────────────────────
+
+  const btnClass = (word: string) => {
+    if (isMatched(word))  return "bg-green-500 border-green-500 cursor-default";
+    if (isWrong(word))    return "bg-red-500/40 border-red-500 text-red-300 cursor-not-allowed";
+    if (isSelected(word)) return "border-[#31639C] bg-gray-800";
+    return "border-[#6A6A6A] bg-[#141F24]";
+  };
+
+  // ── Render ─────────────────────────────────────────────────────────────────
 
   return (
     <div className="p-4 text-white flex flex-col">
@@ -117,62 +154,43 @@ export default function Translations({
           onCancel={handleCancel}
         />
       </div>
-      <h2 className="text-2xl font-bold mt-16">Finde die richtigen Paare</h2>
-      <div className="mt-6 grid grid-cols-2 gap-4">
-        <div className="flex flex-col gap-4">
-          {currentExercise.words.map((word, index) => {
-            let btnClass = "border-[#6A6A6A] bg-[#141F24]";
-            if (isMatched(word)) {
-              btnClass = "bg-green-500 border-green-500";
-            } else if (isWrong(word)) {
-              btnClass = "bg-red-500 border-red-500";
-            } else if (isSelected(word)) {
-              btnClass = "border-[#31639C] bg-gray-800";
-            }
 
-            return (
-              <Button
-                key={word + index}
-                onClick={() => handleSelect(word)}
-                disabled={isMatched(word)}
-                className={`w-full py-6 rounded-xl text-white text-lg font-semibold border-2 transition-all hover:bg-gray-800 ${btnClass}`}
-              >
-                {word}
-              </Button>
-            );
-          })}
+      <h2 className="text-2xl font-bold mt-16">Finde die richtigen Paare</h2>
+
+      <div className="mt-6 grid grid-cols-2 gap-4">
+        {/* Left column — words */}
+        <div className="flex flex-col gap-4">
+          {currentExercise.words.map((word, index) => (
+            <Button
+              key={word + index}
+              onClick={() => handleSelect(word)}
+              disabled={isMatched(word) || isWrong(word)}
+              className={`w-full py-6 rounded-xl text-white text-lg font-semibold border-2 transition-all hover:bg-gray-800 ${btnClass(word)}`}
+            >
+              {word}
+            </Button>
+          ))}
         </div>
 
+        {/* Right column — translations */}
         <div className="flex flex-col gap-4">
-          {currentExercise.translations.map((translation, index) => {
-            let btnClass = "border-[#6A6A6A] bg-[#141F24]";
-            if (isMatched(translation)) {
-              btnClass = "bg-green-500 border-green-500";
-            } else if (isWrong(translation)) {
-              btnClass = "bg-red-500 border-red-500";
-            } else if (isSelected(translation)) {
-              btnClass = "border-[#31639C] bg-gray-800";
-            }
-
-            return (
-              <Button
-                key={translation + index}
-                onClick={() => handleSelect(translation)}
-                disabled={isMatched(translation)}
-                className={`w-full py-6 rounded-xl text-white text-lg font-semibold border-2 transition-all hover:bg-gray-800 ${btnClass}`}
-              >
-                {translation}
-              </Button>
-            );
-          })}
+          {currentExercise.translations.map((translation, index) => (
+            <Button
+              key={translation + index}
+              onClick={() => handleSelect(translation)}
+              disabled={isMatched(translation) || isWrong(translation)}
+              className={`w-full py-6 rounded-xl text-white text-lg font-semibold border-2 transition-all hover:bg-gray-800 ${btnClass(translation)}`}
+            >
+              {translation}
+            </Button>
+          ))}
         </div>
       </div>
-      <div
-        className={`mt-12 p-8 flex items-center ${
-          hasChecked ? "justify-between" : "justify-end"
-        }`}
-      >
-        {hasChecked && (
+
+      {/* Bottom bar */}
+      <div className="mt-12 p-8 flex items-center justify-between">
+        {/* Feedback */}
+        {isCorrect !== null && (
           <div className="flex items-center gap-2">
             {isCorrect ? (
               <>
@@ -180,41 +198,31 @@ export default function Translations({
                 <p className="text-green-500 font-bold">Richtig!</p>
               </>
             ) : (
-              <div className="flex flex-col">
-                <div className="flex items-center gap-2 mb-2">
-                  <GoXCircleFill className="text-red-500" size={24} />
-                  <p className="text-red-500 font-bold">Falsch!</p>
-                </div>
-                <p className="text-red-400 font-semibold">
-                  Überprüfe die Zuordnung noch einmal.
-                </p>
+              <div className="flex items-center gap-2">
+                <GoXCircleFill className="text-red-500" size={24} />
+                <p className="text-red-500 font-bold">Falsch!</p>
               </div>
             )}
           </div>
         )}
 
-        <Button
-          onClick={() => {
-            if (hasChecked) {
-              if (activeIndex < exercises.length - 1) {
-                setActiveIndex(activeIndex + 1);
-                setMatchedPairs({});
-                setSelected([]);
-                setWrongPair([]);
-                setHasChecked(false);
-                setIsCorrect(null);
-              } else {
-                alert("Alle Fragen abgeschlossen!");
-                router.push("/german");
-              }
-            } else {
-              handleCheck();
-            }
-          }}
-          className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md"
-        >
-          {buttonLabel}
-        </Button>
+        {/* Buttons — only visible after completion */}
+        {isCorrect !== null && (
+          <div className="flex gap-3">
+            <Button
+              onClick={handleRepeat}
+              className="bg-transparent border-2 border-white hover:bg-gray-800 text-white px-4 py-2 rounded-md"
+            >
+              Wiederholen
+            </Button>
+            <Button
+              onClick={handleNext}
+              className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md"
+            >
+              Nächste Frage →
+            </Button>
+          </div>
+        )}
       </div>
     </div>
   );
