@@ -14,9 +14,14 @@ export type QuizQuestion = {
 };
 
 export type ImageQuiz = {
-  vegetableType: QuizQuestion;
+  /** One of these two will be present depending on category */
+  vegetableType?: QuizQuestion;
+  fruitType?: QuizQuestion;
   origin: QuizQuestion;
   season: QuizQuestion;
+  vitamins?: QuizQuestion;
+  /** Resolved at parse time — always the vegetableType or fruitType question */
+  typeQuestion: QuizQuestion;
 };
 
 export type ImageCard = {
@@ -90,9 +95,19 @@ function parseQuiz(raw: any): ImageQuiz | undefined {
   };
 
   const vegetableType = parseQ(raw.vegetableType);
+  const fruitType = parseQ(raw.fruitType);
   const origin = parseQ(raw.origin);
   const season = parseQ(raw.season);
+  const vitamins = parseQ(raw.vitamins);
 
-  if (!vegetableType || !origin || !season) return undefined;
-  return { vegetableType, origin, season };
+  const typeQuestion = vegetableType ?? fruitType;
+  if (!typeQuestion || !origin || !season) return undefined;
+
+  return {
+    ...(vegetableType ? { vegetableType } : { fruitType }),
+    origin,
+    season,
+    ...(vitamins ? { vitamins } : {}),
+    typeQuestion,
+  };
 }

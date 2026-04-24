@@ -150,7 +150,12 @@ export default function Images({ cards }: Props) {
   const card = cards[idx];
 
   const quizQuestions = card.quiz
-    ? [card.quiz.vegetableType, card.quiz.origin, card.quiz.season]
+    ? [
+        card.quiz.typeQuestion,
+        card.quiz.origin,
+        card.quiz.season,
+        card.quiz.vitamins,
+      ].filter((q): q is typeof card.quiz.typeQuestion => q !== undefined)
     : [];
 
   const correctCount = quizQuestions.filter(
@@ -267,15 +272,15 @@ export default function Images({ cards }: Props) {
                 </div>
               )}
 
-              {/* ─ Steps 1–3: Quiz questions ─ */}
-              {quizStep >= 1 && quizStep <= 3 && card.quiz && (
+              {/* ─ Steps 1–N: Quiz questions ─ */}
+              {quizStep >= 1 && quizStep <= quizQuestions.length && card.quiz && (
                 <div className="flex flex-col gap-4 flex-1">
                   {/* Progress header */}
                   <div className="flex items-center justify-between">
                     <span className="text-xs text-gray-400">
-                      Frage {quizStep} von 3
+                      Frage {quizStep} von {quizQuestions.length}
                     </span>
-                    <ProgressDots current={quizStep} total={3} />
+                    <ProgressDots current={quizStep} total={quizQuestions.length} />
                   </div>
 
                   <QuizQuestion
@@ -283,24 +288,24 @@ export default function Images({ cards }: Props) {
                     selectedAnswer={answers[quizStep] ?? null}
                     onAnswer={(i) => recordAnswer(quizStep, i)}
                     onNext={() => setQuizStep((s) => s + 1)}
-                    isLast={quizStep === 3}
+                    isLast={quizStep === quizQuestions.length}
                   />
                 </div>
               )}
 
-              {/* ─ Step 4: Summary ─ */}
-              {quizStep === 4 && card.quiz && (
+              {/* ─ Summary ─ */}
+              {quizStep === quizQuestions.length + 1 && card.quiz && (
                 <div className="flex flex-col items-center justify-center flex-1 gap-6">
                   {/* Score */}
                   <div className="text-center">
                     <p className="text-5xl font-bold">
                       {correctCount}
-                      <span className="text-3xl text-gray-400">/3</span>
+                      <span className="text-3xl text-gray-400">/{quizQuestions.length}</span>
                     </p>
                     <p className="text-gray-300 mt-2 text-sm">
-                      {correctCount === 3
+                      {correctCount === quizQuestions.length
                         ? "Perfekt! Alle richtig!"
-                        : correctCount === 2
+                        : correctCount >= quizQuestions.length / 2
                         ? "Gut gemacht!"
                         : correctCount === 1
                         ? "Weiter üben!"
