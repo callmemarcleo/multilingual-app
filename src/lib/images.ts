@@ -19,7 +19,7 @@ export type ImageQuiz = {
   fruitType?: QuizQuestion;
   origin: QuizQuestion;
   season: QuizQuestion;
-  vitamins?: QuizQuestion;
+  vitamins: QuizQuestion;
   /** Resolved at parse time — always the vegetableType or fruitType question */
   typeQuestion: QuizQuestion;
 };
@@ -101,13 +101,13 @@ function parseQuiz(raw: any): ImageQuiz | undefined {
   const vitamins = parseQ(raw.vitamins);
 
   const typeQuestion = vegetableType ?? fruitType;
-  if (!typeQuestion || !origin || !season) return undefined;
+  if (!typeQuestion || !origin || !season || !vitamins) return undefined;
 
   return {
     ...(vegetableType ? { vegetableType } : { fruitType }),
     origin,
     season,
-    ...(vitamins ? { vitamins } : {}),
+    vitamins,
     typeQuestion,
   };
 }

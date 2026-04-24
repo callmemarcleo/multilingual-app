@@ -150,12 +150,7 @@ export default function Images({ cards }: Props) {
   const card = cards[idx];
 
   const quizQuestions = card.quiz
-    ? [
-        card.quiz.typeQuestion,
-        card.quiz.origin,
-        card.quiz.season,
-        card.quiz.vitamins,
-      ].filter((q): q is typeof card.quiz.typeQuestion => q !== undefined)
+    ? [card.quiz.typeQuestion, card.quiz.origin, card.quiz.season, card.quiz.vitamins]
     : [];
 
   const correctCount = quizQuestions.filter(
