@@ -301,3 +301,15 @@ type ImageTranslation {
   translation  String
 }
 
+model fremdwoerter {
+  id        String  @id @default(auto()) @map("_id") @db.ObjectId
+  wort      String
+  bedeutung String
+  beispiel  String?
+  beispiel1 String?
+  beispiel2 String?
+  beispiel3 String?
+  beispiel4 String?
+  quelle    String? @map("Quelle")
+}
+

@@ -30,6 +30,11 @@ const exercisesByLanguage: Record<string, Exercise[]> = {
       description: "Match the words to its translation.",
       href: "/german/exercises/translations",
     },
+    {
+      name: "Fremdwörter",
+      description: "Lerne deutsche Fremdwörter und ihre Bedeutungen.",
+      href: "/german/exercises/fremdwoerter",
+    },
   ],
   english: [
     {

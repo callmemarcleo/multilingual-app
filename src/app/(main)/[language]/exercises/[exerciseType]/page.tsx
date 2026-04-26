@@ -11,6 +11,7 @@ import { getAccentFlashcards } from "@/lib/accents";
 import { getProverbFlashcards } from "@/lib/proverbs";
 import { ConjCard, getRandomConjExercises } from "@/lib/conjugations";
 import { getPuzzleFlashcardsPrisma } from "@/lib/puzzles";
+import { getFremdwoerterCards } from "@/lib/fremdwoerter";
 import { connection } from "next/server";
 
 function ExerciseSkeleton() {
@@ -54,6 +55,10 @@ const ConjugationGrid = dynamic(
 );
 const PuzzleFlashcards = dynamic(
   () => import("@/components/exercises/Puzzle"),
+  { loading: () => <ExerciseSkeleton /> }
+);
+const FremdwoerterCards = dynamic(
+  () => import("@/components/exercises/Fremdwoerter"),
   { loading: () => <ExerciseSkeleton /> }
 );
 
@@ -157,6 +162,11 @@ export default async function ExercisePage({
     );
 
     return <DarkFlashcards cards={flashcards} />;
+  }
+
+  if (formattedExerciseType === "fremdwoerter") {
+    const cards = await getFremdwoerterCards();
+    return <FremdwoerterCards cards={cards} />;
   }
 
   if (formattedExerciseType === "puzzle") {
