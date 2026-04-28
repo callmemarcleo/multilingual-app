@@ -1,2736 +1,2852 @@
-[{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e68"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "1",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "diligo",
-    "diligi",
-    "dilige",
-    "diligiamo",
-    "diligete",
-    "diligono"
-  ],
-  "date_entry": {
-    "$date": "1996-07-20T00:00:00.000Z"
-  },
-  "cumul": 14,
-  "counter": 0,
-  "infinitive": "diligere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e69"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "2",
-  "tense": "Imperfecto",
-  "forms": [
-    "diligevo",
-    "diligevi",
-    "diligeva",
-    "diligevamo",
-    "diligevate",
-    "diligevano"
-  ],
-  "date_entry": {
-    "$date": "1996-07-20T00:00:00.000Z"
-  },
-  "cumul": 4,
-  "counter": 0,
-  "infinitive": "diligere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e6a"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "3",
-  "tense": "Passato Remoto",
-  "forms": [
-    "dilessi",
-    "diligesti",
-    "dilesse",
-    "diligemmo",
-    "diligeste",
-    "dilissero"
-  ],
-  "date_entry": {
-    "$date": "1996-07-20T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "diligere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e6b"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "4",
-  "tense": "Futuro Simple",
-  "forms": [
-    "diligerò",
-    "diligerai",
-    "diligera",
-    "diligeremo",
-    "diligerete",
-    "diligeranno"
-  ],
-  "date_entry": {
-    "$date": "1996-07-20T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "diligere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e6c"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "5",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "diliga",
-    "diliga",
-    "diliga",
-    "diligiamo",
-    "diligiate",
-    "diligano"
-  ],
-  "date_entry": {
-    "$date": "1996-07-20T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "diligere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e6d"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "6",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "diligerei",
-    "diligeresti",
-    "diligerebbe",
-    "diligeremmo",
-    "diligereste",
-    "diligerebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-07-20T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "diligere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e6e"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "7",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "dipingo",
-    "dipingi",
-    "dipinge",
-    "dipingiamo",
-    "dipingete",
-    "dipingono"
-  ],
-  "date_entry": {
-    "$date": "1996-07-31T00:00:00.000Z"
-  },
-  "cumul": 1,
-  "counter": 0,
-  "infinitive": "dipingere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e6f"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "8",
-  "tense": "Imperfecto",
-  "forms": [
-    "dipingevo",
-    "dipingevi",
-    "dipingeva",
-    "dipingevamo",
-    "dipingevate",
-    "dipingevano"
-  ],
-  "date_entry": {
-    "$date": "1996-07-31T00:00:00.000Z"
-  },
-  "cumul": 1,
-  "counter": 0,
-  "infinitive": "dipingere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e70"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "9",
-  "tense": "Passato Remoto",
-  "forms": [
-    "dipinsi",
-    "dipingesti",
-    "dipinse",
-    "dipingemmo",
-    "dipingeste",
-    "dipinsero"
-  ],
-  "date_entry": {
-    "$date": "1996-07-31T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "dipingere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e71"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "10",
-  "tense": "Futuro Simple",
-  "forms": [
-    "dipingerò",
-    "dipingerai",
-    "dipingerà",
-    "dipingeremo",
-    "dipingerete",
-    "dipingeranno"
-  ],
-  "date_entry": {
-    "$date": "1996-07-31T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "dipingere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e72"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "11",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "dipinga",
-    "dipinga",
-    "dipinga",
-    "dipingiamo",
-    "dipingiate",
-    "dipingano"
-  ],
-  "date_entry": {
-    "$date": "1996-07-31T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "dipingere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e73"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "12",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "dipingerei",
-    "dipingeresti",
-    "dipingerebbe",
-    "dipingeremmo",
-    "dipingereste",
-    "dipingerebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-07-31T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "dipingere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e74"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "13",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "amo",
-    "ami",
-    "ama",
-    "amiamo",
-    "amate",
-    "amano"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 1,
-  "counter": 0,
-  "infinitive": "amare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e75"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "14",
-  "tense": "Imperfecto",
-  "forms": [
-    "amavo",
-    "amavi",
-    "amava",
-    "amavamo",
-    "amavate",
-    "amavano"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e76"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "15",
-  "tense": "Passato Remoto",
-  "forms": [
-    "amai",
-    "amasti",
-    "amò",
-    "amanno",
-    "amaste",
-    "amarono"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 1,
-  "counter": 0,
-  "infinitive": "amare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e77"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "16",
-  "tense": "Futuro Simple",
-  "forms": [
-    "amerò",
-    "amerai",
-    "amerà",
-    "ameremo",
-    "amerete",
-    "ameranno"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e78"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "17",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "ami",
-    "ami",
-    "ami",
-    "amiamo",
-    "amiate",
-    "amino"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e79"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "18",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "amerei",
-    "ameresti",
-    "amerebbe",
-    "ameremmo",
-    "amereste",
-    "amerebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e7a"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "19",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "temo",
-    "temi",
-    "teme",
-    "temiamo",
-    "temete",
-    "temono"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e7b"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "20",
-  "tense": "Imperfecto",
-  "forms": [
-    "temevo",
-    "temevi",
-    "temeva",
-    "temevamo",
-    "temevate",
-    "temevano"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 1,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e7c"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "21",
-  "tense": "Passato Remoto",
-  "forms": [
-    "temei",
-    "temesti",
-    "temé",
-    "tememmo",
-    "temeste",
-    "temerono"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e7d"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "22",
-  "tense": "Futuro Simple",
-  "forms": [
-    "temerò",
-    "temerai",
-    "temerà",
-    "temeremo",
-    "temerete",
-    "temeranno"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e7e"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "23",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "tema",
-    "tema",
-    "tema",
-    "temiamo",
-    "temiate",
-    "temano"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e7f"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "24",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "temerei",
-    "temeresti",
-    "temerebbe",
-    "temeremmo",
-    "temereste",
-    "temerebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e80"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "25",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "sento",
-    "senti",
-    "sente",
-    "sentiamo",
-    "sentite",
-    "sentono"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e81"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "26",
-  "tense": "Imperfecto",
-  "forms": [
-    "sentivo",
-    "sentivi",
-    "sentiva",
-    "sentivamo",
-    "sentivate",
-    "sentivano"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e82"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "27",
-  "tense": "Passato Remoto",
-  "forms": [
-    "sentii",
-    "sentisti",
-    "sentì",
-    "sentimmo",
-    "sentiste",
-    "sentirono"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e83"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "28",
-  "tense": "Futuro Simple",
-  "forms": [
-    "sentirò",
-    "sentirai",
-    "sentirà",
-    "sentiremo",
-    "sentirete",
-    "sentiranno"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 2,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e84"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "29",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "senta",
-    "senta",
-    "senta",
-    "sentiamo",
-    "sentiate",
-    "sentano"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e85"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "30",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "sentirei",
-    "sentiresti",
-    "sentirebbe",
-    "sentiremmo",
-    "sentireste",
-    "sentirebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temere"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e86"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "31",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "finisco",
-    "finisci",
-    "finisce",
-    "finiamo",
-    "finite",
-    "finiscono"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "finire"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e87"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "32",
-  "tense": "Imperfecto",
-  "forms": [
-    "finivo",
-    "finivi",
-    "finiva",
-    "finivamo",
-    "finivate",
-    "finivano"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "finire"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e88"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "33",
-  "tense": "Passato Remoto",
-  "forms": [
-    "finii",
-    "finisti",
-    "finì",
-    "finimmo",
-    "finiste",
-    "finirono"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "finire"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e89"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "34",
-  "tense": "Futuro Simple",
-  "forms": [
-    "finirò",
-    "finirai",
-    "finirà",
-    "finiremo",
-    "finirete",
-    "finiranno"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "finire"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e8a"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "35",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "finisca",
-    "finisca",
-    "finisca",
-    "finiamo",
-    "finiate",
-    "finiscano"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 1,
-  "counter": 0,
-  "infinitive": "finire"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e8b"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "36",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "finirei",
-    "finiresti",
-    "finirebbe",
-    "finiremmo",
-    "finireste",
-    "finirebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-08-01T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "finire"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e8c"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "37",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "vado",
-    "vai",
-    "va",
-    "andiamo",
-    "andate",
-    "vanno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "andare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e8d"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "38",
-  "tense": "Imperfecto",
-  "forms": [
-    "andavo",
-    "andavi",
-    "andava",
-    "andavamo",
-    "andavate",
-    "andavano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "andare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e8e"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "39",
-  "tense": "Passato Remoto",
-  "forms": [
-    "andai",
-    "andasti",
-    "andò",
-    "andammo",
-    "andaste",
-    "andarono"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "andare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e8f"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "40",
-  "tense": "Futuro Simple",
-  "forms": [
-    "andrò",
-    "andrai",
-    "andrà",
-    "andremo",
-    "andrete",
-    "andranno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "andare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e90"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "41",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "vada",
-    "vada",
-    "vada",
-    "andiamo",
-    "andiate",
-    "vadano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "andare"
-},
-{
-  "_id": {
-    "$oid": "682df315c9c6ecd3bdde6e91"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "42",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "andrei",
-    "andresti",
-    "andrebbe",
-    "andremmo",
-    "andreste",
-    "andrebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "andare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e92"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "43",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "appaio",
-    "appari",
-    "appare",
-    "appariamo",
-    "apparite",
-    "appaiono"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "appaiare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e93"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "44",
-  "tense": "Imperfecto",
-  "forms": [
-    "apparivo",
-    "apparivi",
-    "appariva",
-    "apparivamo",
-    "apparivate",
-    "apparivano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "appaiare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e94"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "45",
-  "tense": "Passato Remoto",
-  "forms": [
-    "apparvi",
-    "apparisti",
-    "apparve",
-    "apparimmo",
-    "appariste",
-    "apparvero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "appaiare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e95"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "46",
-  "tense": "Futuro Simple",
-  "forms": [
-    "apparirò",
-    "apparirai",
-    "apparirà",
-    "appariremo",
-    "apparirete",
-    "appariranno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "appaiare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e96"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "47",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "appaia",
-    "appaia",
-    "appaia",
-    "appariamo",
-    "appariate",
-    "appaiano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "appaiare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e97"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "48",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "apparirei",
-    "appariresti",
-    "apparirebbe",
-    "appariremmo",
-    "apparireste",
-    "apparirebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "appaiare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e98"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "49",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "apro",
-    "apri",
-    "apre",
-    "apriamo",
-    "aprite",
-    "aprono"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "aprire"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e99"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "50",
-  "tense": "Imperfecto",
-  "forms": [
-    "aprivo",
-    "aprivi",
-    "apriva",
-    "aprivamo",
-    "aprivate",
-    "aprivano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "aprire"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e9a"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "51",
-  "tense": "Passato Remoto",
-  "forms": [
-    "aprii",
-    "apristi",
-    "aprì",
-    "aprimmo",
-    "apriste",
-    "aprirono"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "aprire"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e9b"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "52",
-  "tense": "Futuro Simple",
-  "forms": [
-    "aprirò",
-    "aprirai",
-    "aprirà",
-    "apriremo",
-    "aprirete",
-    "apriranno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "aprire"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e9c"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "53",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "apra",
-    "apra",
-    "apra",
-    "apriamo",
-    "apriate",
-    "aprano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "aprire"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e9d"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "54",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "aprirei",
-    "apriresti",
-    "aprirebbe",
-    "apriremmo",
-    "aprireste",
-    "aprirebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-03T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "aprire"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e9e"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "55",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "bevo",
-    "bevi",
-    "beve",
-    "beviamo",
-    "bevete",
-    "bevono"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "bere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6e9f"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "56",
-  "tense": "Imperfecto",
-  "forms": [
-    "bevevo",
-    "bevevi",
-    "beveva",
-    "bevevamo",
-    "bevevate",
-    "bevevano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "bere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea0"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "57",
-  "tense": "Passato Remoto",
-  "forms": [
-    "bevvi",
-    "bevesti",
-    "bevve",
-    "bevemmo",
-    "beveste",
-    "bevvero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "bere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea1"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "58",
-  "tense": "Futuro Simple",
-  "forms": [
-    "berrò",
-    "berrai",
-    "berrà",
-    "berremo",
-    "berrete",
-    "berrano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "bere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea2"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "59",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "beva",
-    "beva",
-    "beva",
-    "beviamo",
-    "beviate",
-    "bevano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "bere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea3"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "60",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "berrei",
-    "berresti",
-    "berrebbe",
-    "beremmo",
-    "berreste",
-    "berrebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "bere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea4"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "61",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "cado",
-    "cadi",
-    "cade",
-    "cadiamo",
-    "cadete",
-    "cadono"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "cadere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea5"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "62",
-  "tense": "Imperfecto",
-  "forms": [
-    "cadevo",
-    "cadevi",
-    "cadeva",
-    "cadevamo",
-    "cadevate",
-    "cadevano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "cadere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea6"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "63",
-  "tense": "Passato Remoto",
-  "forms": [
-    "caddi",
-    "cadesti",
-    "cadde",
-    "cademmo",
-    "cadeste",
-    "caddero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "cadere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea7"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "64",
-  "tense": "Futuro Simple",
-  "forms": [
-    "cadrò",
-    "cadrai",
-    "cadrà",
-    "cadremo",
-    "cadrete",
-    "cadranno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "cadere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea8"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "65",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "cada",
-    "cada",
-    "cada",
-    "cadiamo",
-    "cadiate",
-    "cadano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "cadere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ea9"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "66",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "cadrei",
-    "cadresti",
-    "cadrebbe",
-    "cadremmo",
-    "cadreste",
-    "cadrebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "cadere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eaa"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "67",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "chiedo",
-    "chiedi",
-    "chiede",
-    "chiediamo",
-    "chiedete",
-    "chiedono"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "chiedere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eab"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "68",
-  "tense": "Imperfecto",
-  "forms": [
-    "chiedevo",
-    "chiedevi",
-    "chiedeva",
-    "chiedevamo",
-    "chiedevate",
-    "chiedevano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "chiedere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eac"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "69",
-  "tense": "Passato Remoto",
-  "forms": [
-    "chiesi",
-    "chiedesti",
-    "chiese",
-    "chiedemmo",
-    "chiedeste",
-    "chiesero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "chiedere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ead"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "70",
-  "tense": "Futuro Simple",
-  "forms": [
-    "chiederò",
-    "chiederai",
-    "chiederà",
-    "chiederemo",
-    "chiederete",
-    "chiederanno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "chiedere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eae"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "71",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "chieda",
-    "chieda",
-    "chieda",
-    "chiediamo",
-    "chiedete",
-    "chiedano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "chiedere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eaf"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "72",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "chiuderei",
-    "chiuderesti",
-    "chiuderebbe",
-    "chiuderemmo",
-    "chiudereste",
-    "chiuderebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-04T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "chiedere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb0"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "73",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "faccio",
-    "fai",
-    "fa",
-    "facciamo",
-    "fate",
-    "fanno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb1"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "74",
-  "tense": "Imperfecto",
-  "forms": [
-    "facevo",
-    "facevi",
-    "faceva",
-    "facevamo",
-    "facevate",
-    "facevano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb2"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "75",
-  "tense": "Passato Remoto",
-  "forms": [
-    "feci",
-    "facesti",
-    "fece",
-    "facemmo",
-    "faceste",
-    "fecero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb3"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "76",
-  "tense": "Futuro Simple",
-  "forms": [
-    "farò",
-    "farai",
-    "farà",
-    "faremo",
-    "farete",
-    "faranno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb4"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "77",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "faccia",
-    "faccia",
-    "faccia",
-    "facciamo",
-    "facciate",
-    "facciano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb5"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "78",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "farei",
-    "faresti",
-    "farebbe",
-    "faremmo",
-    "fareste",
-    "farebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fare"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb6"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "79",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "fingo",
-    "fingi",
-    "finge",
-    "fingiamo",
-    "fingete",
-    "fingono"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fingere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb7"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "80",
-  "tense": "Imperfecto",
-  "forms": [
-    "fingevo",
-    "fingevi",
-    "fingeva",
-    "fingevamo",
-    "fingevate",
-    "fingevano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fingere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb8"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "81",
-  "tense": "Passato Remoto",
-  "forms": [
-    "finsi",
-    "fingesti",
-    "finse",
-    "fingemmo",
-    "fingeste",
-    "finsero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fingere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eb9"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "82",
-  "tense": "Futuro Simple",
-  "forms": [
-    "fingerò",
-    "fingerai",
-    "fingerà",
-    "fingeremo",
-    "fingerete",
-    "fingeranno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fingere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6eba"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "83",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "finga",
-    "finga",
-    "finga",
-    "fingiamo",
-    "fingete",
-    "fingano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fingere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ebb"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "84",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "fingerei",
-    "fingeresti",
-    "fingerebbe",
-    "fingeremmo",
-    "fingereste",
-    "fingerebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "fingere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ebc"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "85",
-  "tense": "Indicativo Presente",
-  "forms": [
-    "esigo",
-    "esigi",
-    "esige",
-    "esigiamo",
-    "esigete",
-    "esigono"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "esigere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ebd"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "86",
-  "tense": "Imperfecto",
-  "forms": [
-    "esigevo",
-    "esigevi",
-    "esigeva",
-    "esigevamo",
-    "esigevate",
-    "esigevano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "esigere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ebe"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "87",
-  "tense": "Passato Remoto",
-  "forms": [
-    "esigei",
-    "esigesti",
-    "esigette",
-    "esigemmo",
-    "esigeste",
-    "esigettero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "esigere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ebf"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "88",
-  "tense": "Futuro Simple",
-  "forms": [
-    "esigerò",
-    "esigerai",
-    "esigerà",
-    "esigeremo",
-    "esigerete",
-    "esigeranno"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "esigere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ec0"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "89",
-  "tense": "Congiuntivo Presente",
-  "forms": [
-    "esiga",
-    "esiga",
-    "esiga",
-    "esigiamo",
-    "esigiate",
-    "esigano"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "esigere"
-},
-{
-  "_id": {
-    "$oid": "682df316c9c6ecd3bdde6ec1"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aab"
-  },
-  "verb_id": "90",
-  "tense": "Condizionale Presente",
-  "forms": [
-    "esigerei",
-    "esigeresti",
-    "esigerebbe",
-    "esigeremmo",
-    "esigereste",
-    "esigerebbero"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "esigere"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da402"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "91",
-  "tense": "Indicativo presente",
-  "forms": [
-    "tem-o",
-    "tem-es",
-    "tem-e",
-    "tem-emos",
-    "tem-éis",
-    "temen"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temer"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da403"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "92",
-  "tense": "Indicativo pretérito indefinido",
-  "forms": [
-    "tem-í",
-    "tem-iste",
-    "tem-ió",
-    "tem-imos",
-    "tem-isteis",
-    "tem-ieron"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temer"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da404"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "93",
-  "tense": "Indicativo futuro imperfecto",
-  "forms": [
-    "tem-eré",
-    "tem-erás",
-    "tem-erá",
-    "tem-eremos",
-    "tem-eréis",
-    "tem-erán"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temer"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da405"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "94",
-  "tense": "Indicativo pretérito imperfecto",
-  "forms": [
-    "tem-ía",
-    "tem-ías",
-    "tem-ía",
-    "tem-íamos",
-    "tem-íais",
-    "tem-ían"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temer"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da406"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "95",
-  "tense": "Subjuntivo presente",
-  "forms": [
-    "tem-a",
-    "tem-as",
-    "tem-a",
-    "tem-amos",
-    "tem-áis",
-    "tem-an"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temer"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da407"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "96",
-  "tense": "Subjuntivo pretérito imperfecto",
-  "forms": [
-    "tem-iese",
-    "tem-ieses",
-    "tem-iese",
-    "tem-iésemos",
-    "tem-ieseis",
-    "tem-iesen"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temer"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da408"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "97",
-  "tense": "Subjuntivo futuro imperfecto",
-  "forms": [
-    "tem-iere",
-    "tem-ieres",
-    "tem-iere",
-    "tem-iéremos",
-    "tem-iereis",
-    "tem-ieren"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temer"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da409"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "98",
-  "tense": "Potencial simple",
-  "forms": [
-    "tem-ería",
-    "tem-erías",
-    "tem-ería",
-    "tem-eríamos",
-    "tem-eríais",
-    "tem-erían"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "temer"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da40a"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "99",
-  "tense": "Indicativo presente",
-  "forms": [
-    "part-o",
-    "part-es",
-    "part-e",
-    "part-imos",
-    "part-ís",
-    "part-en"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "partir"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da40b"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "100",
-  "tense": "Indicativo pretérito indefinido",
-  "forms": [
-    "part-í",
-    "part-iste",
-    "part-ió",
-    "part-imos",
-    "part-isteis",
-    "part-ieron"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "partir"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da40c"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "101",
-  "tense": "Indicativo futuro imperfecto",
-  "forms": [
-    "part-iré",
-    "part-irás",
-    "part-irá",
-    "part-iremos",
-    "part-iréis",
-    "part-irán"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "partir"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da40d"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "102",
-  "tense": "Indicativo pretérito imperfecto",
-  "forms": [
-    "part-ía",
-    "part-ías",
-    "part-ía",
-    "part-íamos",
-    "part-íais",
-    "part-ían"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "partir"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da40e"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "103",
-  "tense": "Subjuntivo presente",
-  "forms": [
-    "part-a",
-    "part-as",
-    "part-a",
-    "part-amos",
-    "part-áis",
-    "part-an"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "partir"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da40f"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "104",
-  "tense": "Subjuntivo pretérito imperfecto",
-  "forms": [
-    "part-iese",
-    "part-ieses",
-    "part-iese",
-    "part-iésemos",
-    "part-ieseis",
-    "part-iesen"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "partir"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da410"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "105",
-  "tense": "Subjuntivo futuro imperfecto",
-  "forms": [
-    "part-iere",
-    "part-ieres",
-    "part-iere",
-    "part-iéremos",
-    "part-iereis",
-    "part-ieren"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "partir"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da411"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "106",
-  "tense": "Potencial simple",
-  "forms": [
-    "part-iría",
-    "part-irías",
-    "part-iría",
-    "part-iríamos",
-    "part-iríais",
-    "part-irían"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "partir"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da412"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "107",
-  "tense": "Indicativo presente",
-  "forms": [
-    "am-o",
-    "am-as",
-    "am-a",
-    "am-amos",
-    "am-áis",
-    "am-an"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amar"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da413"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "108",
-  "tense": "Indicativo pretérito indefinido",
-  "forms": [
-    "am-é",
-    "am-aste",
-    "am-ó",
-    "am-amos",
-    "am-asteis",
-    "am-aron"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amar"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da414"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "109",
-  "tense": "Indicativo futuro imperfecto",
-  "forms": [
-    "am-aré",
-    "am-arás",
-    "am-ará",
-    "am-aremos",
-    "am-aréis",
-    "am-arán"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amar"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da415"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "110",
-  "tense": "Indicativo pretérito imperfecto",
-  "forms": [
-    "am-aba",
-    "am-abas",
-    "am-aba",
-    "am-ábamos",
-    "am-abais",
-    "am-aban"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amar"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da416"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "111",
-  "tense": "Subjuntivo presente",
-  "forms": [
-    "am-e",
-    "am-es",
-    "am-e",
-    "am-emos",
-    "am-éis",
-    "am-en"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amar"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da417"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "112",
-  "tense": "Subjuntivo pretérito imperfecto",
-  "forms": [
-    "am-ase",
-    "am-ases",
-    "am-ase",
-    "am-ásemos",
-    "am-aseis",
-    "am-asen"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amar"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da418"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "113",
-  "tense": "Subjuntivo futuro imperfecto",
-  "forms": [
-    "am-are",
-    "am-ares",
-    "am-are",
-    "am-áremos",
-    "am-areis",
-    "am-aren"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amar"
-},
-{
-  "_id": {
-    "$oid": "682df44e60bdc7c5e87da419"
-  },
-  "language_id": {
-    "$oid": "67bed42569a3680a95974aaa"
-  },
-  "verb_id": "114",
-  "tense": "Potencial simple",
-  "forms": [
-    "am-aría",
-    "am-arías",
-    "am-aría",
-    "am-aríamos",
-    "am-aríais",
-    "am-arían"
-  ],
-  "date_entry": {
-    "$date": "1996-09-07T00:00:00.000Z"
-  },
-  "cumul": 0,
-  "counter": 0,
-  "infinitive": "amar"
-}]
+[
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e85"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "30",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "sentirei",
+      "sentiresti",
+      "sentirebbe",
+      "sentiremmo",
+      "sentireste",
+      "sentirebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e93"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "44",
+    "tense": "Imperfecto",
+    "forms": [
+      "apparivo",
+      "apparivi",
+      "appariva",
+      "apparivamo",
+      "apparivate",
+      "apparivano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "appaiare",
+    "verbstamm": "appai"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e95"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "46",
+    "tense": "Futuro Simple",
+    "forms": [
+      "apparirò",
+      "apparirai",
+      "apparirà",
+      "appariremo",
+      "apparirete",
+      "appariranno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "appaiare",
+    "verbstamm": "appai"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e9c"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "53",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "apra",
+      "apra",
+      "apra",
+      "apriamo",
+      "apriate",
+      "aprano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "aprire",
+    "verbstamm": "apr"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea7"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "64",
+    "tense": "Futuro Simple",
+    "forms": [
+      "cadrò",
+      "cadrai",
+      "cadrà",
+      "cadremo",
+      "cadrete",
+      "cadranno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "cadere",
+    "verbstamm": "cad"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eab"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "68",
+    "tense": "Imperfecto",
+    "forms": [
+      "chiedevo",
+      "chiedevi",
+      "chiedeva",
+      "chiedevamo",
+      "chiedevate",
+      "chiedevano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "chiedere",
+    "verbstamm": "chied"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eae"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "71",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "chieda",
+      "chieda",
+      "chieda",
+      "chiediamo",
+      "chiedete",
+      "chiedano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "chiedere",
+    "verbstamm": "chied"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e73"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "12",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "dipingerei",
+      "dipingeresti",
+      "dipingerebbe",
+      "dipingeremmo",
+      "dipingereste",
+      "dipingerebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-07-31T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "dipingere",
+    "verbstamm": "diping"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e7b"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "20",
+    "tense": "Imperfecto",
+    "forms": [
+      "temevo",
+      "temevi",
+      "temeva",
+      "temevamo",
+      "temevate",
+      "temevano"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 1,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e92"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "43",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "appaio",
+      "appari",
+      "appare",
+      "appariamo",
+      "apparite",
+      "appaiono"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "appaiare",
+    "verbstamm": "appai"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e9d"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "54",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "aprirei",
+      "apriresti",
+      "aprirebbe",
+      "apriremmo",
+      "aprireste",
+      "aprirebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "aprire",
+    "verbstamm": "apr"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e9e"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "55",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "bevo",
+      "bevi",
+      "beve",
+      "beviamo",
+      "bevete",
+      "bevono"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "bere",
+    "verbstamm": "bev"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da40a"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "99",
+    "tense": "Indicativo presente",
+    "forms": [
+      "part-o",
+      "part-es",
+      "part-e",
+      "part-imos",
+      "part-ís",
+      "part-en"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "partir",
+    "verbstamm": "part"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da414"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "109",
+    "tense": "Indicativo futuro imperfecto",
+    "forms": [
+      "am-aré",
+      "am-arás",
+      "am-ará",
+      "am-aremos",
+      "am-aréis",
+      "am-arán"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amar",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e76"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "15",
+    "tense": "Passato Remoto",
+    "forms": [
+      "amai",
+      "amasti",
+      "amò",
+      "amanno",
+      "amaste",
+      "amarono"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 1,
+    "counter": 0,
+    "infinitive": "amare",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e7a"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "19",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "temo",
+      "temi",
+      "teme",
+      "temiamo",
+      "temete",
+      "temono"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e91"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "42",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "andrei",
+      "andresti",
+      "andrebbe",
+      "andremmo",
+      "andreste",
+      "andrebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "andare",
+    "verbstamm": "and"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ead"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "70",
+    "tense": "Futuro Simple",
+    "forms": [
+      "chiederò",
+      "chiederai",
+      "chiederà",
+      "chiederemo",
+      "chiederete",
+      "chiederanno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "chiedere",
+    "verbstamm": "chied"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb7"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "80",
+    "tense": "Imperfecto",
+    "forms": [
+      "fingevo",
+      "fingevi",
+      "fingeva",
+      "fingevamo",
+      "fingevate",
+      "fingevano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fingere",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ec0"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "89",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "esiga",
+      "esiga",
+      "esiga",
+      "esigiamo",
+      "esigiate",
+      "esigano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "esigere",
+    "verbstamm": "esig"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da403"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "92",
+    "tense": "Indicativo pretérito indefinido",
+    "forms": [
+      "tem-í",
+      "tem-iste",
+      "tem-ió",
+      "tem-imos",
+      "tem-isteis",
+      "tem-ieron"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temer",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da405"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "94",
+    "tense": "Indicativo pretérito imperfecto",
+    "forms": [
+      "tem-ía",
+      "tem-ías",
+      "tem-ía",
+      "tem-íamos",
+      "tem-íais",
+      "tem-ían"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temer",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da40c"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "101",
+    "tense": "Indicativo futuro imperfecto",
+    "forms": [
+      "part-iré",
+      "part-irás",
+      "part-irá",
+      "part-iremos",
+      "part-iréis",
+      "part-irán"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "partir",
+    "verbstamm": "part"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da418"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "113",
+    "tense": "Subjuntivo futuro imperfecto",
+    "forms": [
+      "am-are",
+      "am-ares",
+      "am-are",
+      "am-áremos",
+      "am-areis",
+      "am-aren"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amar",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e82"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "27",
+    "tense": "Passato Remoto",
+    "forms": [
+      "sentii",
+      "sentisti",
+      "sentì",
+      "sentimmo",
+      "sentiste",
+      "sentirono"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea1"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "58",
+    "tense": "Futuro Simple",
+    "forms": [
+      "berrò",
+      "berrai",
+      "berrà",
+      "berremo",
+      "berrete",
+      "berrano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "bere",
+    "verbstamm": "bev"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eaf"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "72",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "chiuderei",
+      "chiuderesti",
+      "chiuderebbe",
+      "chiuderemmo",
+      "chiudereste",
+      "chiuderebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "chiedere",
+    "verbstamm": "chied"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da40b"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "100",
+    "tense": "Indicativo pretérito indefinido",
+    "forms": [
+      "part-í",
+      "part-iste",
+      "part-ió",
+      "part-imos",
+      "part-isteis",
+      "part-ieron"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "partir",
+    "verbstamm": "part"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da40e"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "103",
+    "tense": "Subjuntivo presente",
+    "forms": [
+      "part-a",
+      "part-as",
+      "part-a",
+      "part-amos",
+      "part-áis",
+      "part-an"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "partir",
+    "verbstamm": "part"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e78"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "17",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "ami",
+      "ami",
+      "ami",
+      "amiamo",
+      "amiate",
+      "amino"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amare",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e8f"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "40",
+    "tense": "Futuro Simple",
+    "forms": [
+      "andrò",
+      "andrai",
+      "andrà",
+      "andremo",
+      "andrete",
+      "andranno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "andare",
+    "verbstamm": "and"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea0"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "57",
+    "tense": "Passato Remoto",
+    "forms": [
+      "bevvi",
+      "bevesti",
+      "bevve",
+      "bevemmo",
+      "beveste",
+      "bevvero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "bere",
+    "verbstamm": "bev"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea2"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "59",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "beva",
+      "beva",
+      "beva",
+      "beviamo",
+      "beviate",
+      "bevano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "bere",
+    "verbstamm": "bev"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea5"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "62",
+    "tense": "Imperfecto",
+    "forms": [
+      "cadevo",
+      "cadevi",
+      "cadeva",
+      "cadevamo",
+      "cadevate",
+      "cadevano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "cadere",
+    "verbstamm": "cad"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb0"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "73",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "faccio",
+      "fai",
+      "fa",
+      "facciamo",
+      "fate",
+      "fanno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fare",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb2"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "75",
+    "tense": "Passato Remoto",
+    "forms": [
+      "feci",
+      "facesti",
+      "fece",
+      "facemmo",
+      "faceste",
+      "fecero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fare",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb4"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "77",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "faccia",
+      "faccia",
+      "faccia",
+      "facciamo",
+      "facciate",
+      "facciano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fare",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb5"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "78",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "farei",
+      "faresti",
+      "farebbe",
+      "faremmo",
+      "fareste",
+      "farebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fare",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da404"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "93",
+    "tense": "Indicativo futuro imperfecto",
+    "forms": [
+      "tem-eré",
+      "tem-erás",
+      "tem-erá",
+      "tem-eremos",
+      "tem-eréis",
+      "tem-erán"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temer",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e6a"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "3",
+    "tense": "Passato Remoto",
+    "forms": [
+      "dilessi",
+      "diligesti",
+      "dilesse",
+      "diligemmo",
+      "diligeste",
+      "dilissero"
+    ],
+    "date_entry": {
+      "$date": "1996-07-20T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "diligere",
+    "verbstamm": "dilig"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e6c"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "5",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "diliga",
+      "diliga",
+      "diliga",
+      "diligiamo",
+      "diligiate",
+      "diligano"
+    ],
+    "date_entry": {
+      "$date": "1996-07-20T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "diligere",
+    "verbstamm": "dilig"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e72"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "11",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "dipinga",
+      "dipinga",
+      "dipinga",
+      "dipingiamo",
+      "dipingiate",
+      "dipingano"
+    ],
+    "date_entry": {
+      "$date": "1996-07-31T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "dipingere",
+    "verbstamm": "diping"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e77"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "16",
+    "tense": "Futuro Simple",
+    "forms": [
+      "amerò",
+      "amerai",
+      "amerà",
+      "ameremo",
+      "amerete",
+      "ameranno"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amare",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e79"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "18",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "amerei",
+      "ameresti",
+      "amerebbe",
+      "ameremmo",
+      "amereste",
+      "amerebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amare",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e7c"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "21",
+    "tense": "Passato Remoto",
+    "forms": [
+      "temei",
+      "temesti",
+      "temé",
+      "tememmo",
+      "temeste",
+      "temerono"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e88"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "33",
+    "tense": "Passato Remoto",
+    "forms": [
+      "finii",
+      "finisti",
+      "finì",
+      "finimmo",
+      "finiste",
+      "finirono"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "finire",
+    "verbstamm": "fin"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e97"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "48",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "apparirei",
+      "appariresti",
+      "apparirebbe",
+      "appariremmo",
+      "apparireste",
+      "apparirebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "appaiare",
+    "verbstamm": "appai"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da40d"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "102",
+    "tense": "Indicativo pretérito imperfecto",
+    "forms": [
+      "part-ía",
+      "part-ías",
+      "part-ía",
+      "part-íamos",
+      "part-íais",
+      "part-ían"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "partir",
+    "verbstamm": "part"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da411"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "106",
+    "tense": "Potencial simple",
+    "forms": [
+      "part-iría",
+      "part-irías",
+      "part-iría",
+      "part-iríamos",
+      "part-iríais",
+      "part-irían"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "partir",
+    "verbstamm": "part"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da412"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "107",
+    "tense": "Indicativo presente",
+    "forms": [
+      "am-o",
+      "am-as",
+      "am-a",
+      "am-amos",
+      "am-áis",
+      "am-an"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amar",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da415"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "110",
+    "tense": "Indicativo pretérito imperfecto",
+    "forms": [
+      "am-aba",
+      "am-abas",
+      "am-aba",
+      "am-ábamos",
+      "am-abais",
+      "am-aban"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amar",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e75"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "14",
+    "tense": "Imperfecto",
+    "forms": [
+      "amavo",
+      "amavi",
+      "amava",
+      "amavamo",
+      "amavate",
+      "amavano"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amare",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e7d"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "22",
+    "tense": "Futuro Simple",
+    "forms": [
+      "temerò",
+      "temerai",
+      "temerà",
+      "temeremo",
+      "temerete",
+      "temeranno"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e9b"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "52",
+    "tense": "Futuro Simple",
+    "forms": [
+      "aprirò",
+      "aprirai",
+      "aprirà",
+      "apriremo",
+      "aprirete",
+      "apriranno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "aprire",
+    "verbstamm": "apr"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea3"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "60",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "berrei",
+      "berresti",
+      "berrebbe",
+      "beremmo",
+      "berreste",
+      "berrebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "bere",
+    "verbstamm": "bev"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eaa"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "67",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "chiedo",
+      "chiedi",
+      "chiede",
+      "chiediamo",
+      "chiedete",
+      "chiedono"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "chiedere",
+    "verbstamm": "chied"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eac"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "69",
+    "tense": "Passato Remoto",
+    "forms": [
+      "chiesi",
+      "chiedesti",
+      "chiese",
+      "chiedemmo",
+      "chiedeste",
+      "chiesero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "chiedere",
+    "verbstamm": "chied"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da410"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "105",
+    "tense": "Subjuntivo futuro imperfecto",
+    "forms": [
+      "part-iere",
+      "part-ieres",
+      "part-iere",
+      "part-iéremos",
+      "part-iereis",
+      "part-ieren"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "partir",
+    "verbstamm": "part"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e6b"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "4",
+    "tense": "Futuro Simple",
+    "forms": [
+      "diligerò",
+      "diligerai",
+      "diligera",
+      "diligeremo",
+      "diligerete",
+      "diligeranno"
+    ],
+    "date_entry": {
+      "$date": "1996-07-20T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "diligere",
+    "verbstamm": "dilig"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e6e"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "7",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "dipingo",
+      "dipingi",
+      "dipinge",
+      "dipingiamo",
+      "dipingete",
+      "dipingono"
+    ],
+    "date_entry": {
+      "$date": "1996-07-31T00:00:00.000Z"
+    },
+    "cumul": 1,
+    "counter": 0,
+    "infinitive": "dipingere",
+    "verbstamm": "diping"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e8e"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "39",
+    "tense": "Passato Remoto",
+    "forms": [
+      "andai",
+      "andasti",
+      "andò",
+      "andammo",
+      "andaste",
+      "andarono"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "andare",
+    "verbstamm": "and"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e96"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "47",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "appaia",
+      "appaia",
+      "appaia",
+      "appariamo",
+      "appariate",
+      "appaiano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "appaiare",
+    "verbstamm": "appai"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eba"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "83",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "finga",
+      "finga",
+      "finga",
+      "fingiamo",
+      "fingete",
+      "fingano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fingere",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da413"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "108",
+    "tense": "Indicativo pretérito indefinido",
+    "forms": [
+      "am-é",
+      "am-aste",
+      "am-ó",
+      "am-amos",
+      "am-asteis",
+      "am-aron"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amar",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e8a"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "35",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "finisca",
+      "finisca",
+      "finisca",
+      "finiamo",
+      "finiate",
+      "finiscano"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 1,
+    "counter": 0,
+    "infinitive": "finire",
+    "verbstamm": "fin"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e8b"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "36",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "finirei",
+      "finiresti",
+      "finirebbe",
+      "finiremmo",
+      "finireste",
+      "finirebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "finire",
+    "verbstamm": "fin"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e9f"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "56",
+    "tense": "Imperfecto",
+    "forms": [
+      "bevevo",
+      "bevevi",
+      "beveva",
+      "bevevamo",
+      "bevevate",
+      "bevevano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "bere",
+    "verbstamm": "bev"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea4"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "61",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "cado",
+      "cadi",
+      "cade",
+      "cadiamo",
+      "cadete",
+      "cadono"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "cadere",
+    "verbstamm": "cad"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea9"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "66",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "cadrei",
+      "cadresti",
+      "cadrebbe",
+      "cadremmo",
+      "cadreste",
+      "cadrebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "cadere",
+    "verbstamm": "cad"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb8"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "81",
+    "tense": "Passato Remoto",
+    "forms": [
+      "finsi",
+      "fingesti",
+      "finse",
+      "fingemmo",
+      "fingeste",
+      "finsero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fingere",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e7f"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "24",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "temerei",
+      "temeresti",
+      "temerebbe",
+      "temeremmo",
+      "temereste",
+      "temerebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e81"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "26",
+    "tense": "Imperfecto",
+    "forms": [
+      "sentivo",
+      "sentivi",
+      "sentiva",
+      "sentivamo",
+      "sentivate",
+      "sentivano"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e8d"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "38",
+    "tense": "Imperfecto",
+    "forms": [
+      "andavo",
+      "andavi",
+      "andava",
+      "andavamo",
+      "andavate",
+      "andavano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "andare",
+    "verbstamm": "and"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea6"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "63",
+    "tense": "Passato Remoto",
+    "forms": [
+      "caddi",
+      "cadesti",
+      "cadde",
+      "cademmo",
+      "cadeste",
+      "caddero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "cadere",
+    "verbstamm": "cad"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e84"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "29",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "senta",
+      "senta",
+      "senta",
+      "sentiamo",
+      "sentiate",
+      "sentano"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da407"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "96",
+    "tense": "Subjuntivo pretérito imperfecto",
+    "forms": [
+      "tem-iese",
+      "tem-ieses",
+      "tem-iese",
+      "tem-iésemos",
+      "tem-ieseis",
+      "tem-iesen"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temer",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e8c"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "37",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "vado",
+      "vai",
+      "va",
+      "andiamo",
+      "andate",
+      "vanno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "andare",
+    "verbstamm": "and"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e90"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "41",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "vada",
+      "vada",
+      "vada",
+      "andiamo",
+      "andiate",
+      "vadano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "andare",
+    "verbstamm": "and"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e9a"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "51",
+    "tense": "Passato Remoto",
+    "forms": [
+      "aprii",
+      "apristi",
+      "aprì",
+      "aprimmo",
+      "apriste",
+      "aprirono"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "aprire",
+    "verbstamm": "apr"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ebb"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "84",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "fingerei",
+      "fingeresti",
+      "fingerebbe",
+      "fingeremmo",
+      "fingereste",
+      "fingerebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fingere",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da402"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "91",
+    "tense": "Indicativo presente",
+    "forms": [
+      "tem-o",
+      "tem-es",
+      "tem-e",
+      "tem-emos",
+      "tem-éis",
+      "temen"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temer",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da406"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "95",
+    "tense": "Subjuntivo presente",
+    "forms": [
+      "tem-a",
+      "tem-as",
+      "tem-a",
+      "tem-amos",
+      "tem-áis",
+      "tem-an"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temer",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da419"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "114",
+    "tense": "Potencial simple",
+    "forms": [
+      "am-aría",
+      "am-arías",
+      "am-aría",
+      "am-aríamos",
+      "am-aríais",
+      "am-arían"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amar",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e70"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "9",
+    "tense": "Passato Remoto",
+    "forms": [
+      "dipinsi",
+      "dipingesti",
+      "dipinse",
+      "dipingemmo",
+      "dipingeste",
+      "dipinsero"
+    ],
+    "date_entry": {
+      "$date": "1996-07-31T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "dipingere",
+    "verbstamm": "diping"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e80"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "25",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "sento",
+      "senti",
+      "sente",
+      "sentiamo",
+      "sentite",
+      "sentono"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e99"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "50",
+    "tense": "Imperfecto",
+    "forms": [
+      "aprivo",
+      "aprivi",
+      "apriva",
+      "aprivamo",
+      "aprivate",
+      "aprivano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "aprire",
+    "verbstamm": "apr"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb1"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "74",
+    "tense": "Imperfecto",
+    "forms": [
+      "facevo",
+      "facevi",
+      "faceva",
+      "facevamo",
+      "facevate",
+      "facevano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fare",
+    "verbstamm": "f"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb3"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "76",
+    "tense": "Futuro Simple",
+    "forms": [
+      "farò",
+      "farai",
+      "farà",
+      "faremo",
+      "farete",
+      "faranno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fare",
+    "verbstamm": "f"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb9"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "82",
+    "tense": "Futuro Simple",
+    "forms": [
+      "fingerò",
+      "fingerai",
+      "fingerà",
+      "fingeremo",
+      "fingerete",
+      "fingeranno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fingere",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ebc"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "85",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "esigo",
+      "esigi",
+      "esige",
+      "esigiamo",
+      "esigete",
+      "esigono"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "esigere",
+    "verbstamm": "esig"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da40f"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "104",
+    "tense": "Subjuntivo pretérito imperfecto",
+    "forms": [
+      "part-iese",
+      "part-ieses",
+      "part-iese",
+      "part-iésemos",
+      "part-ieseis",
+      "part-iesen"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "partir",
+    "verbstamm": "part"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e68"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "1",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "diligo",
+      "diligi",
+      "dilige",
+      "diligiamo",
+      "diligete",
+      "diligono"
+    ],
+    "date_entry": {
+      "$date": "1996-07-20T00:00:00.000Z"
+    },
+    "cumul": 14,
+    "counter": 0,
+    "infinitive": "diligere",
+    "verbstamm": "dilig"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e6d"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "6",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "diligerei",
+      "diligeresti",
+      "diligerebbe",
+      "diligeremmo",
+      "diligereste",
+      "diligerebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-07-20T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "diligere",
+    "verbstamm": "dilig"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e6f"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "8",
+    "tense": "Imperfecto",
+    "forms": [
+      "dipingevo",
+      "dipingevi",
+      "dipingeva",
+      "dipingevamo",
+      "dipingevate",
+      "dipingevano"
+    ],
+    "date_entry": {
+      "$date": "1996-07-31T00:00:00.000Z"
+    },
+    "cumul": 1,
+    "counter": 0,
+    "infinitive": "dipingere",
+    "verbstamm": "diping"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e7e"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "23",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "tema",
+      "tema",
+      "tema",
+      "temiamo",
+      "temiate",
+      "temano"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e89"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "34",
+    "tense": "Futuro Simple",
+    "forms": [
+      "finirò",
+      "finirai",
+      "finirà",
+      "finiremo",
+      "finirete",
+      "finiranno"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "finire",
+    "verbstamm": "fin"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6eb6"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "79",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "fingo",
+      "fingi",
+      "finge",
+      "fingiamo",
+      "fingete",
+      "fingono"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "fingere",
+    "verbstamm": "fing"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da408"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "97",
+    "tense": "Subjuntivo futuro imperfecto",
+    "forms": [
+      "tem-iere",
+      "tem-ieres",
+      "tem-iere",
+      "tem-iéremos",
+      "tem-iereis",
+      "tem-ieren"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temer",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da409"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "98",
+    "tense": "Potencial simple",
+    "forms": [
+      "tem-ería",
+      "tem-erías",
+      "tem-ería",
+      "tem-eríamos",
+      "tem-eríais",
+      "tem-erían"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "temer",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da416"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "111",
+    "tense": "Subjuntivo presente",
+    "forms": [
+      "am-e",
+      "am-es",
+      "am-e",
+      "am-emos",
+      "am-éis",
+      "am-en"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amar",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e69"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "2",
+    "tense": "Imperfecto",
+    "forms": [
+      "diligevo",
+      "diligevi",
+      "diligeva",
+      "diligevamo",
+      "diligevate",
+      "diligevano"
+    ],
+    "date_entry": {
+      "$date": "1996-07-20T00:00:00.000Z"
+    },
+    "cumul": 4,
+    "counter": 0,
+    "infinitive": "diligere",
+    "verbstamm": "dilig"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e74"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "13",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "amo",
+      "ami",
+      "ama",
+      "amiamo",
+      "amate",
+      "amano"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 1,
+    "counter": 0,
+    "infinitive": "amare",
+    "verbstamm": "am"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e83"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "28",
+    "tense": "Futuro Simple",
+    "forms": [
+      "sentirò",
+      "sentirai",
+      "sentirà",
+      "sentiremo",
+      "sentirete",
+      "sentiranno"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 2,
+    "counter": 0,
+    "infinitive": "temere",
+    "verbstamm": "tem"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e87"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "32",
+    "tense": "Imperfecto",
+    "forms": [
+      "finivo",
+      "finivi",
+      "finiva",
+      "finivamo",
+      "finivate",
+      "finivano"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "finire",
+    "verbstamm": "fin"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e94"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "45",
+    "tense": "Passato Remoto",
+    "forms": [
+      "apparvi",
+      "apparisti",
+      "apparve",
+      "apparimmo",
+      "appariste",
+      "apparvero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "appaiare",
+    "verbstamm": "appai"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6e98"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "49",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "apro",
+      "apri",
+      "apre",
+      "apriamo",
+      "aprite",
+      "aprono"
+    ],
+    "date_entry": {
+      "$date": "1996-09-03T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "aprire",
+    "verbstamm": "apr"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ea8"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "65",
+    "tense": "Congiuntivo Presente",
+    "forms": [
+      "cada",
+      "cada",
+      "cada",
+      "cadiamo",
+      "cadiate",
+      "cadano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-04T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "cadere",
+    "verbstamm": "cad"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ebd"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "86",
+    "tense": "Imperfecto",
+    "forms": [
+      "esigevo",
+      "esigevi",
+      "esigeva",
+      "esigevamo",
+      "esigevate",
+      "esigevano"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "esigere",
+    "verbstamm": "esig"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ebe"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "87",
+    "tense": "Passato Remoto",
+    "forms": [
+      "esigei",
+      "esigesti",
+      "esigette",
+      "esigemmo",
+      "esigeste",
+      "esigettero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "esigere",
+    "verbstamm": "esig"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ec1"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "90",
+    "tense": "Condizionale Presente",
+    "forms": [
+      "esigerei",
+      "esigeresti",
+      "esigerebbe",
+      "esigeremmo",
+      "esigereste",
+      "esigerebbero"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "esigere",
+    "verbstamm": "esig"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e71"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "10",
+    "tense": "Futuro Simple",
+    "forms": [
+      "dipingerò",
+      "dipingerai",
+      "dipingerà",
+      "dipingeremo",
+      "dipingerete",
+      "dipingeranno"
+    ],
+    "date_entry": {
+      "$date": "1996-07-31T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "dipingere",
+    "verbstamm": "diping"
+  },
+  {
+    "_id": {
+      "$oid": "682df315c9c6ecd3bdde6e86"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "31",
+    "tense": "Indicativo Presente",
+    "forms": [
+      "finisco",
+      "finisci",
+      "finisce",
+      "finiamo",
+      "finite",
+      "finiscono"
+    ],
+    "date_entry": {
+      "$date": "1996-08-01T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "finire",
+    "verbstamm": "fin"
+  },
+  {
+    "_id": {
+      "$oid": "682df316c9c6ecd3bdde6ebf"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aab"
+    },
+    "verb_id": "88",
+    "tense": "Futuro Simple",
+    "forms": [
+      "esigerò",
+      "esigerai",
+      "esigerà",
+      "esigeremo",
+      "esigerete",
+      "esigeranno"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "esigere",
+    "verbstamm": "esig"
+  },
+  {
+    "_id": {
+      "$oid": "682df44e60bdc7c5e87da417"
+    },
+    "language_id": {
+      "$oid": "67bed42569a3680a95974aaa"
+    },
+    "verb_id": "112",
+    "tense": "Subjuntivo pretérito imperfecto",
+    "forms": [
+      "am-ase",
+      "am-ases",
+      "am-ase",
+      "am-ásemos",
+      "am-aseis",
+      "am-asen"
+    ],
+    "date_entry": {
+      "$date": "1996-09-07T00:00:00.000Z"
+    },
+    "cumul": 0,
+    "counter": 0,
+    "infinitive": "amar",
+    "verbstamm": "am"
+  }
+]

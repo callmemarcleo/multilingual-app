@@ -142,6 +142,7 @@ model conjugations {
     tense       String
     verb_id     String
     infinitive  String
+    verbstamm   String?
 }
 
 model exercises {

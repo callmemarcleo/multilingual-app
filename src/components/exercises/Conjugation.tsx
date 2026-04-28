@@ -14,6 +14,34 @@ const PRONOUNS_BY_LANG: Record<string, string[]> = {
   Spanish: ["yo", "tú", "él/ella", "nosotros", "vosotros", "ellos"],
 };
 
+const TENSE_TABLE = [
+  { de: "Präsens",              fr: "Présent",                       en: "Present Simple / Present Continuous", it: "Presente",              es: "Presente" },
+  { de: "Präteritum",           fr: "Imparfait / Passé simple*",     en: "Past Simple",                         it: "Imperfetto / Passato remoto*", es: "Pretérito imperfecto / Pretérito indefinido" },
+  { de: "Perfekt",              fr: "Passé composé",                 en: "Present Perfect",                     it: "Passato prossimo",      es: "Pretérito perfecto" },
+  { de: "Plusquamperfekt",      fr: "Plus-que-parfait",              en: "Past Perfect",                        it: "Trapassato prossimo",   es: "Pluscuamperfecto" },
+  { de: "Futur I",              fr: "Futur simple",                  en: "Future Simple (will)",                it: "Futuro semplice",       es: "Futuro simple" },
+  { de: "Futur II",             fr: "Futur antérieur",               en: "Future Perfect",                      it: "Futuro anteriore",      es: "Futuro compuesto" },
+  { de: "Konjunktiv I & II",    fr: "Subjonctif",                    en: "Subjunctive",                         it: "Congiuntivo",           es: "Subjuntivo" },
+  { de: "Konditional (würde)",  fr: "Conditionnel",                  en: "Conditional",                         it: "Condizionale",          es: "Condicional" },
+  { de: "Imperativ",            fr: "Impératif",                     en: "Imperative",                          it: "Imperativo",            es: "Imperativo" },
+];
+
+const TENSE_ROW_MAP: Record<string, number> = {
+  "Presente":              0,
+  "Imperfecto":            1,
+  "Imperfetto":            1,
+  "Passato remoto":        1,
+  "Passato prossimo":      2,
+  "Trapassato prossimo":   3,
+  "Futuro semplice":       4,
+  "Futuro Simple":         4,
+  "Futuro anteriore":      5,
+  "Congiuntivo Presente":  6,
+  "Condizionale":          7,
+  "Condizionale Presente": 7,
+  "Imperativo":            8,
+};
+
 type Props = {
   cards: ConjCard[];
   language: string;
@@ -51,12 +79,20 @@ export default function ConjugationGrid({ cards, language }: Props) {
         : currentRaw.forms,
   };
 
+  const getExpectedEnding = (form: string) => {
+    const stem = current.verbstamm;
+    if (stem && form.toLowerCase().startsWith(stem.toLowerCase())) {
+      return form.slice(stem.length);
+    }
+    return form;
+  };
+
   const handleCheck = () => {
     setHasChecked(true);
     const trimmed = answers.map((a) => a.trim().toLowerCase());
     const correctFormsRaw = current.forms.map((f) => f.trim());
-    const lowerCorrect = correctFormsRaw.map((f) => f.toLowerCase());
-    const perSlot = trimmed.map((ans, i) => ans === lowerCorrect[i]);
+    const expectedEndings = correctFormsRaw.map((f) => getExpectedEnding(f).toLowerCase());
+    const perSlot = trimmed.map((ans, i) => ans === expectedEndings[i]);
     setSlotCorrect(perSlot);
 
     const allRight = perSlot.every(Boolean);
@@ -67,7 +103,7 @@ export default function ConjugationGrid({ cards, language }: Props) {
       )
     );
     setAnswers((prev) =>
-      prev.map((given, i) => (perSlot[i] ? given : correctFormsRaw[i]))
+      prev.map((given, i) => (perSlot[i] ? given : getExpectedEnding(correctFormsRaw[i])))
     );
   };
 
@@ -103,25 +139,34 @@ export default function ConjugationGrid({ cards, language }: Props) {
         {PRONOUNS.map((pronoun, i) => (
           <div key={i} className="flex flex-col">
             <label className="text-gray-300">{pronoun}</label>
-            <input
-              className={`mt-1 p-2 rounded bg-[#141F24] border ${
+            <div
+              className={`mt-1 flex items-center rounded bg-[#141F24] border ${
                 hasChecked
                   ? slotCorrect[i]
                     ? "border-green-500"
                     : "border-red-500"
                   : "border-gray-600"
               }`}
-              value={answers[i]}
-              disabled={hasChecked}
-              onChange={(e) => {
-                const v = e.target.value;
-                setAnswers((a) => {
-                  const copy = [...a];
-                  copy[i] = v;
-                  return copy;
-                });
-              }}
-            />
+            >
+              {current.verbstamm && (
+                <span className="pl-2 text-gray-400 select-none whitespace-nowrap">
+                  {current.verbstamm}
+                </span>
+              )}
+              <input
+                className="p-2 bg-transparent flex-1 outline-none min-w-0"
+                value={answers[i]}
+                disabled={hasChecked}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  setAnswers((a) => {
+                    const copy = [...a];
+                    copy[i] = v;
+                    return copy;
+                  });
+                }}
+              />
+            </div>
           </div>
         ))}
       </div>
@@ -153,6 +198,44 @@ export default function ConjugationGrid({ cards, language }: Props) {
         >
           {buttonLabel}
         </Button>
+      </div>
+
+      <div className="mt-10 w-full max-w-xl">
+        <p className="text-gray-400 text-sm mb-2">Zeitformen – Übersicht</p>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-[#1E2A2E] text-gray-400 font-medium">
+                <th className="py-2 px-3 text-left">DE</th>
+                <th className="py-2 px-3 text-left">FR</th>
+                <th className="py-2 px-3 text-left">EN</th>
+                <th className="py-2 px-3 text-left">IT</th>
+                <th className="py-2 px-3 text-left">ES</th>
+              </tr>
+            </thead>
+            <tbody>
+              {TENSE_TABLE.map((row, i) => {
+                const highlighted = TENSE_ROW_MAP[current.tense] === i;
+                return (
+                  <tr
+                    key={i}
+                    className={
+                      highlighted
+                        ? "bg-[#1E3A2E] text-white border-l-2 border-green-500"
+                        : "text-gray-300"
+                    }
+                  >
+                    <td className="py-2 px-3 border-b border-[#2A3A40]">{row.de}</td>
+                    <td className="py-2 px-3 border-b border-[#2A3A40]">{row.fr}</td>
+                    <td className="py-2 px-3 border-b border-[#2A3A40]">{row.en}</td>
+                    <td className="py-2 px-3 border-b border-[#2A3A40]">{row.it}</td>
+                    <td className="py-2 px-3 border-b border-[#2A3A40]">{row.es}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
