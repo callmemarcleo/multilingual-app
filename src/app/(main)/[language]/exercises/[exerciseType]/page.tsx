@@ -149,7 +149,7 @@ export default async function ExercisePage({
   }
 
   if (formattedExerciseType === "proverbs") {
-    const cards = await getProverbFlashcards(languageData.name);
+    const cards = await getProverbFlashcards(languageData.name, userLocaleName);
 
     return <ProverbFlashcards cards={cards} />;
   }

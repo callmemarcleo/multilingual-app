@@ -22,6 +22,8 @@ type ExercisesMetadata {
 type ProverbsTranslations {
     en String?
     fr String?
+    de String?
+    es String?
 }
 
 type WordsAdditionalInfo {

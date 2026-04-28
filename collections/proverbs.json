@@ -14,7 +14,9 @@
   ],
   "translations": {
     "fr": "l'habit ne fait pas le moine",
-    "en": "The cowl does not make the monk"
+    "en": "The cowl does not make the monk",
+    "es": "El hábito no hace al monje",
+    "de": "Der Mantel macht keinen Mönch"
   },
   "date_entry": {
     "$date": "1999-02-14T00:00:00.000Z"
@@ -39,7 +41,9 @@
   ],
   "translations": {
     "fr": "Qui trop embrasse mal étreint",
-    "en": "Grasp all, lose all"
+    "en": "Grasp all, lose all",
+    "es": "Quien mucho abarca, poco aprieta",
+    "de": "Wer zu viel umarmt, hält nichts"
   },
   "date_entry": {
     "$date": "1999-02-14T00:00:00.000Z"
@@ -63,8 +67,10 @@
     "dono"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Qui accepte par plaisir paie par devoir",
+    "en": "Who accepts by pleasure pays by duty",
+    "es": "Quien acepta por placer paga por deber",
+    "de": "Wer aus Vergnügen annimmt, zahlt aus Pflicht"
   },
   "date_entry": {
     "$date": "1999-02-16T00:00:00.000Z"
@@ -89,7 +95,11 @@
   ],
   "translations": {
     "fr": "Qui ne dit mot, consent",
-    "en": "Silence gives consent"
+    "en": "Silence gives consent",
+    "es": "El que no dice nada, da su consentimiento",
+    "de": "Schweigen ist Zustimmung"
+
+
   },
   "date_entry": {
     "$date": "1999-02-16T00:00:00.000Z"
@@ -113,8 +123,10 @@
     "contentarsi"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Qui ne se contente pas de peu ne sera jamais riche",
+    "en": "He who is not satisfied with little will never be rich",
+    "es": "Quien no se contenta con poco nunca será rico",
+    "de": "Wer nicht mit wenig zufrieden ist, wird nie reich sein"
   },
   "date_entry": {
     "$date": "1999-02-17T00:00:00.000Z"
@@ -138,8 +150,10 @@
     "morte"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Qui se contente est mort",
+    "en": "He who is content is dead",
+    "es": "Quien se contenta está muerto",
+    "de": "Wer zufrieden ist, ist tot"
   },
   "date_entry": {
     "$date": "1999-02-17T00:00:00.000Z"
@@ -163,8 +177,11 @@
     "sentenza"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Mieux vaut un accord maigre qu'une sentence grasse",
+    "en": "Better a lean agreement than a fat sentence",
+    "es": "Mejor un acuerdo magro que una sentencia gorda",
+    "de": "Besser ein dünnes Einvernehmen als ein dickes Urteil"
+
   },
   "date_entry": {
     "$date": "1999-02-18T00:00:00.000Z"
@@ -188,8 +205,10 @@
     "formiche"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Quand elles s'accordent, les fourmis peuvent transporter un éléphant.",
+    "en": "When they agree, the ants can carry an elephant.",
+    "es": "Cuando se ponen de acuerdo, las hormigas pueden transportar un elefante.",
+    "de": "Wenn sie übereinstimmen, können die Ameisen einen Elefant tragen."
   },
   "date_entry": {
     "$date": "1999-02-18T00:00:00.000Z"
@@ -213,8 +232,11 @@
     "maggio"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Pluie de mai : pain pour toute l'année",
+    "en": "May rain: bread for the whole year",
+    "es": "Lluvia de mayo: pan para todo el año",
+    "de": "Mai Regen: Brot für das ganze Jahr"
+
   },
   "date_entry": {
     "$date": "1999-02-18T00:00:00.000Z"
@@ -239,7 +261,8 @@
   ],
   "translations": {
     "fr": "Le temps perdu ne se rattrape jamais",
-    "en": "Let bygones be bygones"
+    "en": "Let bygones be bygones",
+    "de": "Was verlorene Zeit ist, kann nicht mehr zurückgewonnen werden"
   },
   "date_entry": {
     "$date": "1999-02-18T00:00:00.000Z"
@@ -263,8 +286,11 @@
     "sete"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "À grande soif toute eau est bonne",
+    "en": "At great thirst, every water is good",
+    "es": "En la gran sed, cualquier agua es buena",
+    "de": "Bei großer Durst ist jedes Wasser gut"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -285,8 +311,11 @@
   "tema": null,
   "keywords": [],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "La première eau est celle qui mouille",
+    "en": "The first water is the one that wets",
+    "es": "La primera agua es la que moja",
+    "de": "Das erste Wasser ist das, das nass macht"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -307,8 +336,11 @@
   "tema": "Non portar l'acqua nel vaglio",
   "keywords": [],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Ne prends pas l'eau avec le panier",
+    "en": "Don't take the water with the basket",
+    "es": "No tomes el agua con la canasta",
+    "de": "Nimm das Wasser nicht mit dem Korb"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -332,8 +364,10 @@
     "sposarsi"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Achète et ne dis rien ; marie-toi et dis-le à tout le monde",
+    "en": "Buy and say nothing; marry and tell everyone",
+    "es": "Compra y no digas nada; casa y dile a todos",
+    "de": "Kaufe und sage nichts; heirate und erzähle es allen"
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -357,8 +391,11 @@
     "arrischiare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Qui ne risque rien n'acquiert rien",
+    "en": "He who risks nothing gains nothing",
+    "es": "Quien no arriesga nada, no gana nada",
+    "de": "Wer nichts riskiert, gewinnt nichts"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -381,8 +418,11 @@
     "affare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "L'affaire révélée est moitié ruinée",
+    "en": "A revealed deal is half ruined",
+    "es": "Un trato revelado está medio arruinado",
+    "de": "Ein enthüllter Deal ist zur Hälfte zerstört"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -406,7 +446,10 @@
   ],
   "translations": {
     "fr": "Les affaires sont les affaires",
-    "en": "Business is business"
+    "en": "Business is business",
+    "es": "Los negocios son los negocios",
+    "de": "Geschäft ist Geschäft"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -429,8 +472,11 @@
     "aiutare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Aide-toi tant que tu le peux",
+    "en": "Help yourself while you can",
+    "es": "Ayúdate mientras puedas",
+    "de": "Hilf dir selbst, solange du kannst"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -453,8 +499,11 @@
     "aiuto"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Celui qui refuse son aide aux autres se la refuse à lui-même",
+    "en": "He who refuses help to others refuses it to himself",
+    "es": "Quien niega ayuda a los demás, se la niega a sí mismo",
+    "de": "Wer anderen hilft, hilft sich selbst"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -478,8 +527,10 @@
     "fegna"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Quand l'arbre est tombé, chacun court et fait du bois",
+    "en": "When the tree falls, everyone runs to cut wood",
+    "es": "Cuando el árbol cae, todos corren a cortar leña",
+    "de": "Wenn der Baum fällt, rennen alle, um Holz zu sägen"
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -502,8 +553,11 @@
     "albero"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "L'arbre bon a plus de racines",
+    "en": "The good tree has more roots",
+    "es": "El árbol bueno tiene más raíces",
+    "de": "Der gute Baum hat mehr Wurzeln"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -526,8 +580,10 @@
     "albero"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "L'arbre pousse comme il restera",
+    "en": "The tree grows as it will remain",
+    "es": "El árbol crece como se quedará",
+    "de": "Der Baum wächst, wie er bleiben wird"
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -551,8 +607,11 @@
     "raddrizzare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "L'arbre se redresse quand il est encore petit",
+    "en": "The tree straightens while it is small",
+    "es": "El árbol se endereza mientras es pequeño",
+    "de": "Der Baum richtet sich aus, während er klein ist"
+
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -576,8 +635,10 @@
     "piegare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "L'arbre vieux se plie",
+    "en": "The old tree bends",
+    "es": "El árbol viejo se dobla",
+    "de": "Der alte Baum beugt sich"
   },
   "date_entry": {
     "$date": "1999-02-20T00:00:00.000Z"
@@ -601,7 +662,10 @@
   ],
   "translations": {
     "fr": "Contentement passe richesse",
-    "en": "A contented mind is a perpetual feast"
+    "en": "A contented mind is a perpetual feast",
+    "es": "Una mente contenta es un festín perpetuo",
+    "de": "Ein zufriedener Geist ist ein ewiges Fest"
+
   },
   "date_entry": {
     "$date": "2005-04-02T00:00:00.000Z"
@@ -625,8 +689,11 @@
     "lite"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Mieux vaut un mauvais accord qu'un bon procès",
+    "en": "Better a lean agreement than a fat sentence",
+    "es": "Mejor un acuerdo magro que una buena pelea",
+    "de": "Besser ein schmaler Vertrag als ein fetter Urteil"
+
   },
   "date_entry": {
     "$date": "2005-04-02T00:00:00.000Z"
@@ -650,8 +717,10 @@
     "ponti"
   ],
   "translations": {
-    "fr": "Méfiez-vous de l'eau qui dort.\nIl n'est pire eau que l'eau qui dort.",
-    "en": "Still waters run deep"
+    "fr": "Méfiez-vous de l'eau qui dort.Il n'est pire eau que l'eau qui dort.",
+    "en": "Still waters run deep",
+    "es": "Agua que no has de beber, déjala correr",
+    "de": "Stille Wasser laufen tief"
   },
   "date_entry": {
     "$date": "2005-04-02T00:00:00.000Z"
@@ -676,7 +745,10 @@
   ],
   "translations": {
     "fr": "L'eau donne la faim, la neige le pain.",
-    "en": null
+    "en": "When the water is scarce, the snow is bread.",
+    "es": "Cuando el agua es escasa, la nieve es pan.",
+    "de": "Wenn das Wasser knapp ist, ist die Schnee das Brot."
+
   },
   "date_entry": {
     "$date": "2005-04-03T00:00:00.000Z"
@@ -700,8 +772,11 @@
     "necesario"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Qui achète le superflu vend souvent le nécessaire",
+    "en": "He who buys the superfluous often sells the necessary",
+    "es": "Quien compra lo superfluo a menudo vende lo necesario",
+    "de": "Wer das Überflüssige kauft, verkauft oft das Notwendige"
+
   },
   "date_entry": {
     "$date": "2005-04-03T00:00:00.000Z"
@@ -725,8 +800,10 @@
     "frutto"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "L'arbre qui ne donne pas de fruit, coupez-le aux racines.",
+    "en": "An unfruitful tree should be cut down at the roots.",
+    "es": "Un árbol que no da fruto, córtalo por las raíces.",
+    "de": "Ein unfruchtbarer Baum sollte an den Wurzeln abgeschnitten werden."
   },
   "date_entry": {
     "$date": "2005-04-03T00:00:00.000Z"
@@ -747,8 +824,11 @@
   "tema": "Chi semina sulla strada, stanca i buoi e perde la semenza",
   "keywords": [],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Un arbre qui ne donne pas de fruit, coupe-le à la racine",
+    "en": "An unfruitful tree should be cut down at the roots.",
+    "es": "Un árbol que no da fruto, córtalo por las raíces.",
+    "de": "Ein unfruchtbarer Baum sollte an den Wurzeln abgeschnitten werden."
+
   },
   "date_entry": {
     "$date": "2005-04-03T00:00:00.000Z"
@@ -770,7 +850,9 @@
   "keywords": [],
   "translations": {
     "fr": "C'est au fruit qu'on connaît l'arbre.",
-    "en": null
+    "en": "You will know the tree by its fruit.",
+    "es": "Se conoce el árbol por su fruto.",
+    "de": "Man erkennt den Baum an seinen Früchten."
   },
   "date_entry": {
     "$date": "2005-04-03T00:00:00.000Z"
@@ -794,8 +876,11 @@
     "scontentezza"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Pour un jour de joie, mille jours de mécontentement",
+    "en": "For one day of joy, a thousand days of discontent",
+    "es": "Por un día de alegría, mil días de descontento",
+    "de": "Für einen Tag der Freude, tausend Tage der Unzufriedenheit"
+
   },
   "date_entry": {
     "$date": "2005-04-04T00:00:00.000Z"
@@ -819,8 +904,11 @@
     "disgrazia"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Quand la joie est dans la maison, la malchance est derrière la porte.",
+    "en": "When joy is in the house, misfortune is behind the door.",
+    "es": "Cuando la alegría está en la casa, la desgracia está detrás de la puerta.",
+    "de": "Wenn Freude im Haus ist, ist Unglück hinter der Tür."
+
   },
   "date_entry": {
     "$date": "2005-04-04T00:00:00.000Z"
@@ -845,7 +933,9 @@
   ],
   "translations": {
     "fr": "Gaieté porte bonheur.",
-    "en": null
+    "en": "Cheerfulness brings happiness.",
+    "es": "La alegría trae felicidad.",
+    "de": "Fröhlichkeit bringt Glück."
   },
   "date_entry": {
     "$date": "2005-04-04T00:00:00.000Z"
@@ -869,8 +959,11 @@
     "infelice"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Malheureux celui qui a besoin des autres",
+    "en": "Unhappy is the one who needs others",
+    "es": "Infeliz es el que necesita de los demás",
+    "de": "Unglücklich ist der, der von anderen abhängt"
+
   },
   "date_entry": {
     "$date": "2005-04-04T00:00:00.000Z"
@@ -894,8 +987,11 @@
     "allievo"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Une fois que tu es devenu maître en une chose, deviens immédiatement élève en une autre.",
+    "en": "Once you have become a master in one thing, you become a student in another.",
+    "es": "Una vez que has llegado a ser maestro en algo, te conviertes en alumno en otra cosa.",
+    "de": "Sobald du ein Meister in etwas geworden bist, wirst du sofort ein Schüler in etwas anderem."
+
   },
   "date_entry": {
     "$date": "2005-04-04T00:00:00.000Z"
@@ -919,8 +1015,11 @@
     "tempo"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Aimer et ne pas être aimé est perdre du temps.",
+    "en": "To love and not to be loved is to waste time.",
+    "es": "Amar y no ser amado es perder el tiempo.",
+    "de": "Lieben und nicht geliebt werden ist Zeitverschwendung."
+
   },
   "date_entry": {
     "$date": "2005-04-04T00:00:00.000Z"
@@ -943,8 +1042,10 @@
     "amare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Celui qui n'aime pas les autres ne sera pas aimé.",
+    "en": "The one who does not love others will not be loved.",
+    "es": "El que no ama a los demás no será amado.",
+    "de": "Derjenige, der andere nicht liebt, wird nicht geliebt werden."
   },
   "date_entry": {
     "$date": "2005-04-04T00:00:00.000Z"
@@ -968,8 +1069,10 @@
     "albero"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Celui qui aime l'arbre, aime la grenouille.",
+    "en": "He who loves the tree, loves the frog.",
+    "es": "El que ama el árbol, ama la rana.",
+    "de": "Wer den Baum liebt, liebt den Frosch."
   },
   "date_entry": {
     "$date": "2005-04-07T00:00:00.000Z"
@@ -992,8 +1095,11 @@
     "amare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Celui qui veut être aimé doit aimer.",
+    "en": "He who wants to be loved must love.",
+    "es": "El que quiere ser amado debe amar.",
+    "de": "Wer geliebt werden will, muss lieben."
+
   },
   "date_entry": {
     "$date": "2005-04-07T00:00:00.000Z"
@@ -1016,8 +1122,10 @@
     "amare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Celui qui n'aime pas les autres ne sera pas aimé.",
+    "en": "He who does not love others will not be loved.",
+    "es": "El que no ama a los demás no será amado.",
+    "de": "Derjenige, der andere nicht liebt, wird nicht geliebt werden."
   },
   "date_entry": {
     "$date": "2005-04-07T00:00:00.000Z"
@@ -1040,8 +1148,10 @@
     "amare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Plus on aime, moins on connaît.",
+    "en": "The more you love, the less you know.",
+    "es": "Cuanto más amas, menos conoces.",
+    "de": "Je mehr man liebt, desto weniger weiß man."
   },
   "date_entry": {
     "$date": "2005-04-07T00:00:00.000Z"
@@ -1064,8 +1174,10 @@
     "amicizia"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Dans la maison où règne la malice, l'amitié ne peut jamais fleurir.",
+    "en": "In the house where malice reigns, friendship can never flourish.",
+    "es": "En la casa donde reina la malicia, la amistad nunca puede florecer.",
+    "de": "In der Wohnung, wo Bosheit herrscht, kann Freundschaft nie blühen."
   },
   "date_entry": {
     "$date": "2005-04-07T00:00:00.000Z"
@@ -1088,8 +1200,10 @@
     "amicizia"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Aime ton ami avec ses défauts.",
+    "en": "Love your friend with their faults.",
+    "es": "Ama a tu amigo con sus defectos.",
+    "de": "Liebe deinen Freund mit seinen Fehlern."
   },
   "date_entry": {
     "$date": "2005-04-07T00:00:00.000Z"
@@ -1112,8 +1226,11 @@
     "amicizia"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Ami de passage, beaucoup de peine et peu de durabilité.",
+    "en": "A friend of the road, much trouble and little durability.",
+    "es": "Un amigo de paso, muchas dificultades y poca durabilidad.",
+    "de": "Ein Freund der Straße, viel Mühe und wenig Haltbarkeit."
+
   },
   "date_entry": {
     "$date": "2005-04-07T00:00:00.000Z"
@@ -1137,8 +1254,11 @@
     "parente"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "L'ami proche vaut plus qu'un parent éloigné.",
+    "en": "A close friend is worth more than a distant relative.",
+    "es": "Un amigo cercano vale más que un pariente lejano.",
+    "de": "Ein näherer Freund ist wertvoller als ein entfernter Verwandter."
+
   },
   "date_entry": {
     "$date": "2005-04-07T00:00:00.000Z"
@@ -1161,8 +1281,11 @@
     "amicizia"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Un ami bon, un parent bon, mais malheureuse est la maison où il n'y a rien.",
+    "en": "A good friend, a good relative, but unhappy is the house where there is nothing.",
+    "es": "Un buen amigo, un buen pariente, pero infeliz es la casa donde no se encuentra nada.",
+    "de": "Ein guter Freund, ein guter Verwandter, aber unglücklich ist das Haus, wo nichts zu finden ist."
+
   },
   "date_entry": {
     "$date": "2005-04-07T00:00:00.000Z"
@@ -1185,8 +1308,10 @@
     "lavoro"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Dans la maison où règne la misère et la mélancolie, les gens du travail s'échappent.",
+    "en": "From the house of work, misery and melancholy escape.",
+    "es": "De la casa del trabajo, la miseria y la melancolía huyen.",
+    "de": "Aus dem Haus des Arbeitens fliehen Armut und Melancholie."
   },
   "date_entry": {
     "$date": "2005-04-08T00:00:00.000Z"
@@ -1209,8 +1334,11 @@
     "lavoro"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Le travail t'apprendra à travailler.",
+    "en": "Work will teach you to work.",
+    "es": "El trabajo te enseñará a trabajar.",
+    "de": "Arbeit wird dich lehren zu arbeiten."
+
   },
   "date_entry": {
     "$date": "2005-04-08T00:00:00.000Z"
@@ -1233,8 +1361,11 @@
     "lavoro"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Un bon travail vaut deux patrimoines.",
+    "en": "A good job is worth two fortunes.",
+    "es": "Un buen trabajo vale dos patrimonios.",
+    "de": "Ein guter Job ist wert zwei Schätzen."
+
   },
   "date_entry": {
     "$date": "2005-04-08T00:00:00.000Z"
@@ -1257,8 +1388,11 @@
     "lavorare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Celui qui ne travaille pas en été perd la queue en hiver.",
+    "en": "He who does not work in summer loses his tail in winter.",
+    "es": "Quien no trabaja en verano pierde la cola en invierno.",
+    "de": "Wer im Sommer nicht arbeitet, verliert im Winter seinen Schwanz."
+
   },
   "date_entry": {
     "$date": "2005-04-08T00:00:00.000Z"
@@ -1281,8 +1415,11 @@
     "lavorare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Celui qui a travaillé veut être payé.",
+    "en": "He who has worked wants to be paid.",
+    "es": "Quien ha trabajado quiere ser pagado.",
+    "de": "Wer gearbeitet hat, will bezahlt werden."
+
   },
   "date_entry": {
     "$date": "2005-04-08T00:00:00.000Z"
@@ -1305,8 +1442,11 @@
     "lavorare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Celui qui veut se reposer doit travailler.",
+    "en": "He who wants to rest must work.",
+    "es": "Quien quiere descansar debe trabajar.",
+    "de": "Wer ruhen will, muss arbeiten."
+
   },
   "date_entry": {
     "$date": "2005-04-08T00:00:00.000Z"
@@ -1329,8 +1469,10 @@
     "lavorare"
   ],
   "translations": {
-    "fr": null,
-    "en": null
+    "fr": "Le travail est le premier moyen d'acquérir.",
+    "en": "Work is the first means of acquiring.",
+    "es": "El trabajo es el primer medio para adquirir.",
+    "de": "Arbeit ist das erste Mittel des Erwerbs."
   },
   "date_entry": {
     "$date": "2005-04-08T00:00:00.000Z"
@@ -1353,8 +1495,10 @@
     "lavorare"
   ],
   "translations": {
-    "fr": null,
-    "en": "No man is born into the world, whose work is not born with him."
+    "fr": "L'homme a été créé pour travailler comme l'oiseau pour voler.",
+    "en": "No man is born into the world, whose work is not born with him.",
+    "es": "El hombre fue creado para trabajar como el pájaro para volar.",
+    "de": "Der Mensch wurde zum Arbeiten geschaffen, wie der Vogel zum Fliegen."
   },
   "date_entry": {
     "$date": "2005-04-08T00:00:00.000Z"
