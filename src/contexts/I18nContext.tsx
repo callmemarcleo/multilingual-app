@@ -11,7 +11,7 @@ import {
 import { useRouter } from "next/navigation";
 import { getCookie, setCookie } from "cookies-next";
 
-const supportedLanguages = ["en", "de", "es", "it"];
+const supportedLanguages = ["en", "de", "es", "it", "fr"];
 
 type I18nContextType = {
   locale: string;

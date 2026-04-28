@@ -2,9 +2,10 @@ import en from "@/locales/en/common.json";
 import de from "@/locales/de/common.json";
 import es from "@/locales/es/common.json";
 import it from "@/locales/it/common.json";
+import fr from "@/locales/fr/common.json";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const translations: Record<string, any> = { en, de, es, it };
+const translations: Record<string, any> = { en, de, es, it, fr };
 
 export function getTranslation(locale: string, key: string) {
   const keys = key.split(".");
