@@ -62,13 +62,24 @@ const FremdwoerterCards = dynamic(
   { loading: () => <ExerciseSkeleton /> }
 );
 
-
 const LOCALE_MAP: Record<string, string> = {
   en: "English",
   de: "German",
   es: "Spanish",
   it: "Italian",
+  fr: "French",
 };
+
+// When the learning language matches the UI language, fall back to the first
+// other available language as the translation target for word-pair exercises.
+async function getFirstDifferentLocaleId(excludeId: string): Promise<string> {
+  const fallbackNames = ["English", "German", "Spanish", "Italian", "French"];
+  for (const name of fallbackNames) {
+    const lang = await getLanguageByName(name);
+    if (lang && lang.id !== excludeId) return lang.id;
+  }
+  return excludeId;
+}
 
 type Exercise = {
   id: string;
@@ -82,7 +93,6 @@ type RawWordPair = {
   word: string;
   translation: string;
 };
-
 
 export default async function ExercisePage({
   params,
@@ -117,20 +127,6 @@ export default async function ExercisePage({
     return (
       <div className="p-4 text-red-500">
         Error: User language setting not found.
-      </div>
-    );
-  }
-
-  if (languageData.name === LOCALE_MAP[userLocale]) {
-    console.warn(
-      "User chose the same language as their locale:",
-      languageData.name
-    );
-    return (
-      <div className="p-4 text-yellow-500 text-xl">
-        You are already using {languageData.name} as your app local language! If
-        you want to learn {languageData.name} change your local Language besides
-        the Multilingual-Titel in the Navigation-Bar to another language.
       </div>
     );
   }
@@ -170,21 +166,27 @@ export default async function ExercisePage({
   }
 
   if (formattedExerciseType === "puzzle") {
-  const cards = await getPuzzleFlashcardsPrisma(
-    languageData.id,
-    userLocaleData.id,
-    session.user?.id || ""
-  );
+    const cards = await getPuzzleFlashcardsPrisma(
+      languageData.id,
+      userLocaleData.id,
+      session.user?.id || ""
+    );
 
-  return <PuzzleFlashcards cards={cards} />;
+    return <PuzzleFlashcards cards={cards} />;
   }
- 
 
   if (formattedExerciseType === "translations") {
+    // When learning language === UI language, word pairs have no usable
+    // translation column — fall back to any other available language.
+    const effectiveLocaleId =
+      userLocaleData.id === languageData.id
+        ? await getFirstDifferentLocaleId(languageData.id)
+        : userLocaleData.id;
+
     const totalPairsToFetch = 50;
     const rawWordPairs: RawWordPair[] = await getWordPairsPrisma(
       languageData.id,
-      userLocaleData.id,
+      effectiveLocaleId,
       totalPairsToFetch
     );
 
