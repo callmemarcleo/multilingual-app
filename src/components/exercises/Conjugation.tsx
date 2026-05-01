@@ -6,6 +6,7 @@ import ProgressBar, { ExerciseProgress } from "../ProgressBar";
 import { Button } from "../ui/button";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { GoXCircleFill } from "react-icons/go";
+import { FiInfo } from "react-icons/fi";
 import { useRouter } from "next/navigation";
 import { ConjCard } from "@/lib/conjugations";
 
@@ -79,20 +80,12 @@ export default function ConjugationGrid({ cards, language }: Props) {
         : currentRaw.forms,
   };
 
-  const getExpectedEnding = (form: string) => {
-    const stem = current.verbstamm;
-    if (stem && form.toLowerCase().startsWith(stem.toLowerCase())) {
-      return form.slice(stem.length);
-    }
-    return form;
-  };
-
   const handleCheck = () => {
     setHasChecked(true);
     const trimmed = answers.map((a) => a.trim().toLowerCase());
     const correctFormsRaw = current.forms.map((f) => f.trim());
-    const expectedEndings = correctFormsRaw.map((f) => getExpectedEnding(f).toLowerCase());
-    const perSlot = trimmed.map((ans, i) => ans === expectedEndings[i]);
+    const lowerCorrect = correctFormsRaw.map((f) => f.toLowerCase());
+    const perSlot = trimmed.map((ans, i) => ans === lowerCorrect[i]);
     setSlotCorrect(perSlot);
 
     const allRight = perSlot.every(Boolean);
@@ -103,7 +96,7 @@ export default function ConjugationGrid({ cards, language }: Props) {
       )
     );
     setAnswers((prev) =>
-      prev.map((given, i) => (perSlot[i] ? given : getExpectedEnding(correctFormsRaw[i])))
+      prev.map((given, i) => (perSlot[i] ? given : correctFormsRaw[i]))
     );
   };
 
@@ -132,9 +125,28 @@ export default function ConjugationGrid({ cards, language }: Props) {
       </div>
 
       <h2 className="text-2xl font-bold mt-8">
-        Coniuga “{current.infinitive}” – {current.tense}
+        Coniuga "{current.infinitive}" – {current.tense}
       </h2>
 
+      {/* Verbstamm display — only shown when the card has a stem */}
+      {current.verbstamm && (
+        <div className="w-full max-w-xl mt-4">
+          <div className="bg-[#1E2A2E] border border-[#6A6A6A] rounded-lg px-4 py-3 flex items-center gap-3">
+            <span className="text-gray-400 text-sm">Verbstamm:</span>
+            <span className="text-white font-mono text-lg font-semibold">
+              {current.verbstamm}
+            </span>
+            <span
+              title="Der Verbstamm dient als Orientierungshilfe"
+              className="ml-auto text-gray-500 hover:text-gray-300 cursor-help"
+            >
+              <FiInfo size={15} />
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* 6-slot conjugation grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6 w-full max-w-xl">
         {PRONOUNS.map((pronoun, i) => (
           <div key={i} className="flex flex-col">
@@ -148,11 +160,6 @@ export default function ConjugationGrid({ cards, language }: Props) {
                   : "border-gray-600"
               }`}
             >
-              {current.verbstamm && (
-                <span className="pl-2 text-gray-400 select-none whitespace-nowrap">
-                  {current.verbstamm}
-                </span>
-              )}
               <input
                 className="p-2 bg-transparent flex-1 outline-none min-w-0"
                 value={answers[i]}
