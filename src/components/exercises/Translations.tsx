@@ -49,9 +49,12 @@ export default function Translations({
 
   // ── Helpers ────────────────────────────────────────────────────────────────
 
-  const isMatched = (word: string) => matchedPairs[word] !== undefined;
-  const isWrong   = (word: string) => wrongPairs.some((pair) => pair.includes(word));
+  const isMatched  = (word: string) => matchedPairs[word] !== undefined;
+  const isWrong    = (word: string) => wrongPairs.some((pair) => pair.includes(word));
   const isSelected = (word: string) => selected.includes(word);
+
+  const getColumn  = (item: string): "left" | "right" =>
+    currentExercise.words.includes(item) ? "left" : "right";
 
   // ── Auto-complete: fires after every correct match ─────────────────────────
 
@@ -81,6 +84,9 @@ export default function Translations({
 
   const handleSelect = (item: string) => {
     if (isMatched(item) || isWrong(item) || selected.includes(item)) return;
+
+    // Prevent selecting two items from the same column
+    if (selected.length === 1 && getColumn(selected[0]) === getColumn(item)) return;
 
     const updated = [...selected, item];
     setSelected(updated);
@@ -132,6 +138,13 @@ export default function Translations({
     setWrongPairs([]);
     setSelected([]);
     setIsCorrect(null);
+  };
+
+  // Removes only the most recent wrong pair so the user can retry those
+  // two words — all previously correct and wrong pairs stay unchanged
+  const handleCorrect = () => {
+    setWrongPairs((prev) => prev.slice(0, -1));
+    setSelected([]);
   };
 
   // ── Button styling ─────────────────────────────────────────────────────────
@@ -186,6 +199,18 @@ export default function Translations({
           ))}
         </div>
       </div>
+
+      {/* Correct button — visible during exercise when at least one wrong pair exists */}
+      {wrongPairs.length > 0 && isCorrect === null && (
+        <div className="mt-4 flex justify-start">
+          <Button
+            onClick={handleCorrect}
+            className="bg-transparent border-2 border-yellow-500 hover:bg-yellow-900/20 text-yellow-400 px-4 py-2 rounded-md text-sm"
+          >
+            ↺ Korrigieren
+          </Button>
+        </div>
+      )}
 
       {/* Bottom bar */}
       <div className="mt-12 p-8 flex items-center justify-between">
