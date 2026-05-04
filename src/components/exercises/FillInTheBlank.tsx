@@ -200,47 +200,75 @@ export default function FillInTheBlank({
 
       <h2 className="text-2xl font-bold mt-16">Fülle die Lücken!</h2>
 
-      {/* Inline question: alternate text segments and input fields */}
-      <p className="mt-16 leading-loose text-base">
-        {segments.map((segment, i) => (
-          <React.Fragment key={i}>
-            <span>{segment}</span>
+      {/* Question rendering:
+          - 1 blank : segment[0] + INPUT + segment[1] all on one line
+          - 2+ blanks: segment[0] alone, then per blank: INPUT + segment[i+1] */}
+      <div className="mt-16 flex flex-col gap-3">
+        {(() => {
+          const makeInput = (i: number) => (
+            <span className="inline-flex items-center gap-1">
+              <input
+                value={answers[i] ?? ""}
+                onChange={(e) => updateAnswer(i, e.target.value)}
+                onKeyDown={handleKeyDown}
+                disabled={hasChecked}
+                aria-label={`Lücke ${i + 1}`}
+                className={[
+                  "w-32 border-2 rounded bg-transparent px-2 py-1 text-center",
+                  "focus:outline-none transition-colors",
+                  fieldStatuses[i] === "correct"
+                    ? "border-green-500 text-green-400"
+                    : fieldStatuses[i] === "wrong"
+                    ? "border-red-500 text-red-400"
+                    : "border-[#6A6A6A] focus:border-blue-500",
+                ].join(" ")}
+              />
+              {fieldStatuses[i] === "correct" && (
+                <IoIosCheckmarkCircle className="text-green-500 shrink-0" size={16} />
+              )}
+              {fieldStatuses[i] === "wrong" && (
+                <GoXCircleFill className="text-red-500 shrink-0" size={16} />
+              )}
+            </span>
+          );
 
-            {i < blankCount && (
-              <span className="inline-flex items-center gap-1 mx-0.5">
-                <input
-                  value={answers[i] ?? ""}
-                  onChange={(e) => updateAnswer(i, e.target.value)}
-                  onKeyDown={handleKeyDown}
-                  disabled={hasChecked}
-                  aria-label={`Lücke ${i + 1}`}
-                  className={[
-                    "w-28 border-2 rounded bg-transparent px-1 py-0.2 text-center",
-                    "focus:outline-none transition-colors",
-                    fieldStatuses[i] === "correct"
-                      ? "border-green-500 text-green-400"
-                      : fieldStatuses[i] === "wrong"
-                      ? "border-red-500 text-red-400"
-                      : "border-[#6A6A6A] focus:border-blue-500",
-                  ].join(" ")}
-                />
-                {fieldStatuses[i] === "correct" && (
-                  <IoIosCheckmarkCircle
-                    className="text-green-500 shrink-0"
-                    size={16}
-                  />
+          if (blankCount === 1) {
+            // Everything on one line: [text before] [INPUT] [text after]
+            return (
+              <div className="flex items-center gap-2 flex-wrap">
+                {segments[0]?.trim() && (
+                  <span className="text-base">{segments[0]}</span>
                 )}
-                {fieldStatuses[i] === "wrong" && (
-                  <GoXCircleFill
-                    className="text-red-500 shrink-0"
-                    size={16}
-                  />
+                {makeInput(0)}
+                {segments[1]?.trim() && (
+                  <span className="text-base">{segments[1]}</span>
                 )}
-              </span>
-            )}
-          </React.Fragment>
-        ))}
-      </p>
+              </div>
+            );
+          }
+
+          // 2+ blanks:
+          // Row 1: segments[0] alone
+          // Row i+1: [INPUT i] + segments[i+1]
+          return (
+            <>
+              {segments[0]?.trim() && (
+                <div className="flex items-center">
+                  <span className="text-base">{segments[0]}</span>
+                </div>
+              )}
+              {Array.from({ length: blankCount }, (_, i) => (
+                <div key={i} className="flex items-center gap-2 flex-wrap">
+                  {makeInput(i)}
+                  {segments[i + 1]?.trim() && (
+                    <span className="text-base">{segments[i + 1]}</span>
+                  )}
+                </div>
+              ))}
+            </>
+          );
+        })()}
+      </div>
 
       {/* Show each correct answer when at least one blank is wrong */}
       {hasChecked && !isCorrect && (
