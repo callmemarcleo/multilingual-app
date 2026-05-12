@@ -79,6 +79,8 @@ export default function Proverb({ cards }: Props) {
           {phase === 0
             ? "Show Proverb"
             : phase === 1
+            ? "Show Definition"
+            : phase === 2
             ? "Show Translation"
             : "Next Proverb"}
         </Button>
