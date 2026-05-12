@@ -6,6 +6,9 @@ export type AccentCard = {
   word: string;
   frontText: string;
   translation: string;
+  type?: string;
+  rule?: string;
+  example?: string;
 };
 
 export async function getAccentFlashcards(
@@ -24,6 +27,8 @@ export async function getAccentFlashcards(
       unaccented: true,
       accented: true,
       rule: true,
+      type: true,
+      example: true,
     },
   });
 
@@ -31,7 +36,10 @@ export async function getAccentFlashcards(
     id: a.id,
     languageId: lang.id,
     word: a.unaccented,
-    frontText: a.rule ? `Rule: ${a.rule}` : "",
+    frontText: [a.type, a.rule].filter(Boolean).join(": "),
     translation: a.accented,
+    type: a.type ?? undefined,
+    rule: a.rule ?? undefined,
+    example: a.example ?? undefined,
   }));
 }
