@@ -121,6 +121,7 @@ model accents {
     accented    String
     example     String?
     language_id String  @db.ObjectId
+    type        String
     rule        String
     unaccented  String
 }
