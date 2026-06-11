@@ -28,10 +28,13 @@ const TENSE_TABLE = [
 ];
 
 const TENSE_ROW_MAP: Record<string, number> = {
+  // Italienisch
   "Presente":              0,
+  "Indicativo Presente":   0,
   "Imperfecto":            1,
   "Imperfetto":            1,
   "Passato remoto":        1,
+  "Passato Remoto":        1,
   "Passato prossimo":      2,
   "Trapassato prossimo":   3,
   "Futuro semplice":       4,
@@ -41,6 +44,15 @@ const TENSE_ROW_MAP: Record<string, number> = {
   "Condizionale":          7,
   "Condizionale Presente": 7,
   "Imperativo":            8,
+  // Spanisch
+  "Indicativo presente":             0,
+  "Indicativo pretérito imperfecto": 1,
+  "Indicativo pretérito indefinido": 1,
+  "Indicativo futuro imperfecto":    4,
+  "Subjuntivo presente":             6,
+  "Subjuntivo pretérito imperfecto": 6,
+  "Subjuntivo futuro imperfecto":    6,
+  "Potencial simple":                7,
 };
 
 type Props = {
